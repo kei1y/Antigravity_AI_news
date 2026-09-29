@@ -3,12 +3,15 @@ import json
 import html
 from datetime import datetime, timezone, timedelta
 
+# アクセス暗証番号
+PASSCODE = "000011"
+
 def build_web_site(articles: list, output_dir: str = "dist"):
     """
     HTMLおよび静的データを生成
     - 上部メインナビ: 「🔥 注目 TOP10」「📨 未読」「✅ 既読」
     - サブナビ: サイト毎（PIVOT, ITmedia, OpenAI等）の横スクロールタブ
-    - 国内/海外バッジ、論文/先進技術バッジの付与
+    - 暗証番号保護機能 (パスコード: 000011)
     """
     os.makedirs(output_dir, exist_ok=True)
     os.makedirs(os.path.join(output_dir, "data"), exist_ok=True)
@@ -150,6 +153,96 @@ def build_web_site(articles: list, output_dir: str = "dist"):
             line-height: 1.6;
             min-height: 100vh;
             padding-bottom: 40px;
+        }}
+
+        /* Lock Screen Overlay */
+        .lock-overlay {{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 24px;
+        }}
+
+        .lock-box {{
+            background: rgba(30, 41, 59, 0.9);
+            border: 1px solid var(--card-border);
+            border-radius: 24px;
+            padding: 32px 24px;
+            width: 100%;
+            max-width: 360px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+        }}
+
+        .lock-icon {{
+            font-size: 3rem;
+            margin-bottom: 12px;
+        }}
+
+        .lock-title {{
+            font-size: 1.25rem;
+            font-weight: 800;
+            margin-bottom: 6px;
+            color: #ffffff;
+        }}
+
+        .lock-desc {{
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-bottom: 24px;
+        }}
+
+        .pass-input {{
+            width: 100%;
+            padding: 14px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(15, 23, 42, 0.8);
+            color: #ffffff;
+            font-size: 1.2rem;
+            text-align: center;
+            letter-spacing: 4px;
+            outline: none;
+            margin-bottom: 16px;
+        }}
+
+        .pass-input:focus {{
+            border-color: #8b5cf6;
+            box-shadow: 0 0 12px rgba(139, 92, 246, 0.4);
+        }}
+
+        .unlock-btn {{
+            width: 100%;
+            padding: 14px;
+            border-radius: 12px;
+            border: none;
+            background: linear-gradient(135deg, #a855f7 0%, #3b82f6 100%);
+            color: #ffffff;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(168, 85, 247, 0.3);
+        }}
+
+        .unlock-btn:active {{
+            opacity: 0.85;
+        }}
+
+        .error-msg {{
+            color: #f87171;
+            font-size: 0.8rem;
+            margin-top: 10px;
+            display: none;
         }}
 
         header {{
@@ -513,6 +606,18 @@ def build_web_site(articles: list, output_dir: str = "dist"):
 </head>
 <body>
 
+    <!-- Lock Screen Overlay -->
+    <div id="lock-overlay" class="lock-overlay">
+        <div class="lock-box">
+            <div class="lock-icon">🔒</div>
+            <div class="lock-title">プライベートアクセス</div>
+            <div class="lock-desc">暗証番号を入力してください</div>
+            <input type="password" id="pass-input" class="pass-input" placeholder="••••••" maxlength="6" pattern="[0-9]*" inputmode="numeric">
+            <button class="unlock-btn" onclick="checkPasscode()">ロック解除 ➔</button>
+            <div id="error-msg" class="error-msg">暗証番号が正しくありません</div>
+        </div>
+    </div>
+
     <header>
         <div class="logo">
             <span class="logo-icon">⚡</span>
@@ -543,11 +648,10 @@ def build_web_site(articles: list, output_dir: str = "dist"):
             </button>
         </nav>
 
-        <!-- Sub Source Filter Bar (Horizontally Scrollable) -->
+        <!-- Sub Source Filter Bar -->
         <div class="source-filter-container">
             <div class="source-filter-title">サイトで絞り込み</div>
             <div class="source-filter-bar" id="source-filter-bar">
-                <!-- 動的にサイト別チップが挿入されます -->
             </div>
         </div>
 
@@ -566,9 +670,41 @@ def build_web_site(articles: list, output_dir: str = "dist"):
     </div>
 
     <script>
+        const CORRECT_PASSCODE = "{PASSCODE}";
+        const AUTH_STORAGE_KEY = 'ai_digest_auth_passed_v1';
         const STORAGE_KEY = 'ai_digest_read_ids_v1';
-        let currentMainTab = 'top10'; // 'top10', 'unread', 'read'
+        
+        let currentMainTab = 'top10';
         let currentSource = 'ALL';
+
+        function checkPasscode() {{
+            const input = document.getElementById('pass-input').value;
+            const errorMsg = document.getElementById('error-msg');
+            if (input === CORRECT_PASSCODE) {{
+                localStorage.setItem(AUTH_STORAGE_KEY, 'true');
+                document.getElementById('lock-overlay').style.display = 'none';
+                errorMsg.style.display = 'none';
+            }} else {{
+                errorMsg.style.display = 'block';
+                document.getElementById('pass-input').value = '';
+            }}
+        }}
+
+        // Enterキーで解除
+        document.getElementById('pass-input').addEventListener('keypress', function(e) {{
+            if (e.key === 'Enter') {{
+                checkPasscode();
+            }}
+        }});
+
+        function initAuth() {{
+            const passed = localStorage.getItem(AUTH_STORAGE_KEY);
+            if (passed === 'true') {{
+                document.getElementById('lock-overlay').style.display = 'none';
+            }} else {{
+                document.getElementById('lock-overlay').style.display = 'flex';
+            }}
+        }}
 
         function getReadIds() {{
             try {{
@@ -663,7 +799,6 @@ def build_web_site(articles: list, output_dir: str = "dist"):
                     top10VisibleCount++;
                 }}
 
-                // フィルターロジック
                 let matchesMainTab = false;
                 if (currentMainTab === 'top10') {{
                     matchesMainTab = isTop10;
@@ -707,6 +842,7 @@ def build_web_site(articles: list, output_dir: str = "dist"):
         }}
 
         document.addEventListener('DOMContentLoaded', () => {{
+            initAuth();
             initSourceFilterChips();
             renderUI();
         }});
@@ -739,4 +875,4 @@ def build_web_site(articles: list, output_dir: str = "dist"):
     with open(os.path.join(output_dir, "manifest.json"), "w", encoding="utf-8") as f:
         json.dump(manifest_data, f, ensure_ascii=False, indent=2)
 
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] Webアプリのビルド完了 (メイン3タブ＋サイトサブタブ連動構成)")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Webアプリのビルド完了 (暗証番号保護機能: 000011)")
