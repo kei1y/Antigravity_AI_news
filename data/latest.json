@@ -1,8 +1,141 @@
 {
-  "updated_at": "2026-09-30T00:09:37.685732+09:00",
+  "updated_at": "2026-09-30T07:45:47.487223+09:00",
   "articles": [
     {
+      "id": "itmedia_ai_0",
+      "source_name": "ITmedia AI+",
+      "category": "国内ニュース",
+      "title": "マネーフォワード、2800人の情報をNotionに集約 「AIに聞けば分かる」環境へ",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/30/2000001856/",
+      "raw_summary": "社内の情報が複数の場所に分散していれば、従業員もAIも必要な情報にたどり着きにくい。マネーフォワードは約2800人規模のグループでNotionを活用し、社内情報を集約した。「AIに聞けば分かる」環境づくりをどう進めているのか。",
+      "published_at": "2026-09-30T07:00:00+09:00",
+      "lang": "ja",
+      "japanese_title": "マネーフォワード、2800人の情報をNotionに集約 「AIに聞けば分かる」環境へ",
+      "bullets": [
+        "📌 社内の情報が複数の場所に分散していれば、従業員もAIも必要な情報にたどり着きにくい。マネーフォワードは約2800人規模のグループでNotionを活用し、社内情報を集約した。「AIに聞けば分かる」環境づくりをどう進めているのか。..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "itmedia_ai_1",
+      "source_name": "ITmedia AI+",
+      "category": "国内ニュース",
+      "title": "AIがもたらした「半導体」の進化 光電融合、HBM、新トランジスタ――果てなき性能向上、どうかなえる？",
+      "url": "https://www.itmedia.co.jp/business/articles/2609/30/news021.html",
+      "raw_summary": "生成AIの登場によって、半導体の進化が加速している。「ムーアの法則」に限界が見える中、半導体メーカーは新たな技術を次々に生み出している。果てなき性能向上、どうかなえるのか。",
+      "published_at": "2026-09-30T07:00:00+09:00",
+      "lang": "ja",
+      "japanese_title": "AIがもたらした「半導体」の進化 光電融合、HBM、新トランジスタ――果てなき性能向上、どうかなえる？",
+      "bullets": [
+        "📌 生成AIの登場によって、半導体の進化が加速している。「ムーアの法則」に限界が見える中、半導体メーカーは新たな技術を次々に生み出している。果てなき性能向上、どうかなえるのか。..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "itmedia_ai_2",
+      "source_name": "ITmedia AI+",
+      "category": "国内ニュース",
+      "title": "SlackやTeamsで「辞めそうな社員」が分かる？ 退職予兆を探るAI登場",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/30/2000001811/",
+      "raw_summary": "社内チャットの使い方の変化から、従業員の退職の兆候を捉えられるのか。SlackやTeamsの利用ログと勤怠データから、従業員の変化を捉えるAIサービスが登場した。アンケートの回答ではなく、日々の行動に着目する仕組みとは。",
+      "published_at": "2026-09-30T07:00:00+09:00",
+      "lang": "ja",
+      "japanese_title": "SlackやTeamsで「辞めそうな社員」が分かる？ 退職予兆を探るAI登場",
+      "bullets": [
+        "📌 社内チャットの使い方の変化から、従業員の退職の兆候を捉えられるのか。SlackやTeamsの利用ログと勤怠データから、従業員の変化を捉えるAIサービスが登場した。アンケートの回答ではなく、日々の行動に着目する仕組みとは。..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "itmedia_ai_3",
+      "source_name": "ITmedia AI+",
+      "category": "国内ニュース",
+      "title": "OpenAIの「DevDay 2026」で発表された主なことまとめ",
+      "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001868/",
+      "raw_summary": "OpenAIは、年次開発者会議「DevDay 2026」で20件以上の新機能を発表した。常時稼働エージェント「dots」、新モデル「GPT-6.1 Sol」、最大8倍高速な有料枠「Ultrafast」を投入。Codexのクラウド実行やチーム向け協働空間「ChatGPT Space」も公開した。",
+      "published_at": "2026-09-30T06:36:34+09:00",
+      "lang": "ja",
+      "japanese_title": "OpenAIの「DevDay 2026」で発表された主なことまとめ",
+      "bullets": [
+        "📌 OpenAIは、年次開発者会議「DevDay 2026」で20件以上の新機能を発表した。常時稼働エージェント「dots」、新モデル「GPT-6.1 Sol」、最大8倍高速な有料枠「Ultrafast」を投入。Codexのクラウド実行やチーム向け協働空間「ChatGPT Space」も公開した。..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
       "id": "gigazine_ai_5",
+      "source_name": "GIGAZINE (AI)",
+      "category": "国内ニュース",
+      "title": "「証明」によりAIの誤りを阻止しGPU上で動作する高速プログラミング言語「Bend」、C言語並みの処理速度・CUDAによる並列処理・Leanによる形式的証明・Python風の構文",
+      "url": "https://gigazine.net/news/20260930-bend-lang/",
+      "raw_summary": "「Bend」はAIが犯すかもしれない誤りを「証明」によってブロックすることを目指す新たなプログラミング言語です。 続きを読む...",
+      "published_at": "2026-09-30T06:00:00+09:00",
+      "lang": "ja",
+      "japanese_title": "「証明」によりAIの誤りを阻止しGPU上で動作する高速プログラミング言語「Bend」、C言語並みの処理速度・CUDAによる並列処理・Leanによる形式的証明・Python風の構文",
+      "bullets": [
+        "📌 「Bend」はAIが犯すかもしれない誤りを「証明」によってブロックすることを目指す新たなプログラミング言語です。 続きを読む......"
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "itmedia_ai_4",
+      "source_name": "ITmedia AI+",
+      "category": "国内ニュース",
+      "title": "コードが「新しいアセンブリ言語」になるAI時代、日本の「職人気質」がソフトウェア開発の足かせになる理由",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/30/news019.html",
+      "raw_summary": "元メルカリCTOが日本企業のグローバル開発とAI時代の組織づくりについて、当事者としての経験を語る連載。第2回は、「暗黙知」を無意識のうちに生み出している日本の「ハイコンテクスト」な文化について。",
+      "published_at": "2026-09-30T05:00:00+09:00",
+      "lang": "ja",
+      "japanese_title": "コードが「新しいアセンブリ言語」になるAI時代、日本の「職人気質」がソフトウェア開発の足かせになる理由",
+      "bullets": [
+        "📌 元メルカリCTOが日本企業のグローバル開発とAI時代の組織づくりについて、当事者としての経験を語る連載。第2回は、「暗黙知」を無意識のうちに生み出している日本の「ハイコンテクスト」な文化について。..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "techcrunch_ai_15",
+      "source_name": "TechCrunch AI",
+      "category": "海外・トレンド",
+      "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
+      "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+      "raw_summary": "Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the Grok chatbot download page.",
+      "published_at": "2026-09-29T22:20:59+00:00",
+      "lang": "en",
+      "japanese_title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
+      "bullets": [
+        "📌 Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the ..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・トレンド"
+      ]
+    },
+    {
+      "id": "gigazine_ai_6",
       "source_name": "GIGAZINE (AI)",
       "category": "国内ニュース",
       "title": "無料でJev互換の小型高速意思決定モデル「Jeff」、ローカル環境で約22～28ミリ秒と爆速",
@@ -21,26 +154,45 @@
       ]
     },
     {
-      "id": "itmedia_ai_0",
-      "source_name": "ITmedia AI+",
-      "category": "国内ニュース",
-      "title": "Anthropic、IPO目論見書でAIによる「人類存亡リスク」を警告 海外報道",
-      "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001860/",
-      "raw_summary": "英Reutersは9月28日（現地時間）、米Anthropicが新規株式公開（IPO）の目論見書で、AIが人類存亡に関わるリスクをもたらす可能性があると投資家に警告していると報じた。",
-      "published_at": "2026-09-29T19:18:11+09:00",
-      "lang": "ja",
-      "japanese_title": "Anthropic、IPO目論見書でAIによる「人類存亡リスク」を警告 海外報道",
+      "id": "techcrunch_ai_16",
+      "source_name": "TechCrunch AI",
+      "category": "海外・トレンド",
+      "title": "OpenAI’s latest features take direct aim at the app store model",
+      "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
+      "raw_summary": "OpenAI is building out the pieces of an alternative to the traditional app store model, turning ChatGPT into a place where software can be discovered and used by people and AI agents alike.",
+      "published_at": "2026-09-29T20:15:47+00:00",
+      "lang": "en",
+      "japanese_title": "OpenAI’s latest features take direct aim at the app store model",
       "bullets": [
-        "📌 英Reutersは9月28日（現地時間）、米Anthropicが新規株式公開（IPO）の目論見書で、AIが人類存亡に関わるリスクをもたらす可能性があると投資家に警告していると報じた。..."
+        "📌 OpenAI is building out the pieces of an alternative to the traditional app store model, turning ChatGPT into a place where software can be discovered ..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
       "tags": [
-        "国内ニュース"
+        "海外・トレンド"
       ]
     },
     {
-      "id": "gigazine_ai_6",
+      "id": "techcrunch_ai_17",
+      "source_name": "TechCrunch AI",
+      "category": "海外・トレンド",
+      "title": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
+      "url": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+      "raw_summary": "The new round is anticipated to be the company's last before its delayed 2027 public debut.",
+      "published_at": "2026-09-29T19:52:37+00:00",
+      "lang": "en",
+      "japanese_title": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
+      "bullets": [
+        "📌 The new round is anticipated to be the company's last before its delayed 2027 public debut...."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・トレンド"
+      ]
+    },
+    {
+      "id": "gigazine_ai_7",
       "source_name": "GIGAZINE (AI)",
       "category": "国内ニュース",
       "title": "AIエージェント「Manus 2.0」リリース、さらにパーソナルAIエージェント向けアプリ「Cue」やプロフェッショナルなAIワークスペースを実現するデスクトップアプリ「Manus Studio」も",
@@ -59,7 +211,7 @@
       ]
     },
     {
-      "id": "gigazine_ai_7",
+      "id": "gigazine_ai_8",
       "source_name": "GIGAZINE (AI)",
       "category": "国内ニュース",
       "title": "「GPT-6 Astraは旧世代モデルよりサイバー攻撃を実行しやすい傾向にある」というイギリス政府機関の分析結果が公開される",
@@ -78,7 +230,7 @@
       ]
     },
     {
-      "id": "gigazine_ai_8",
+      "id": "gigazine_ai_9",
       "source_name": "GIGAZINE (AI)",
       "category": "国内ニュース",
       "title": "MetaのAI「Muse」にFacebook Marketplaceの対応を任せたら勝手に値下げ＆住所公開、購入者が自宅に来る事態に",
@@ -97,169 +249,17 @@
       ]
     },
     {
-      "id": "itmedia_ai_1",
-      "source_name": "ITmedia AI+",
-      "category": "国内ニュース",
-      "title": "7割の企業が生成AI「個人利用」への対策せず デロイト調査",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/29/2000001855/",
-      "raw_summary": "デロイト トーマツ グループが不正リスク調査白書を発表。業務で使うAIの個人利用についてガイドラインを策定・周知している企業は5％で、74％は「実施していない、わからない」と回答。対応は利用者本人に委ねられているとした。",
-      "published_at": "2026-09-29T17:50:50+09:00",
-      "lang": "ja",
-      "japanese_title": "7割の企業が生成AI「個人利用」への対策せず デロイト調査",
-      "bullets": [
-        "📌 デロイト トーマツ グループが不正リスク調査白書を発表。業務で使うAIの個人利用についてガイドラインを策定・周知している企業は5％で、74％は「実施していない、わからない」と回答。対応は利用者本人に委ねられているとした。..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
-    {
-      "id": "gigazine_ai_9",
-      "source_name": "GIGAZINE (AI)",
-      "category": "国内ニュース",
-      "title": "Microsoft Copilotにアップロードした画像は人間が確認している、性的な画像などセンシティブな内容もレビュー対象に",
-      "url": "https://gigazine.net/news/20260929-microsoft-copilot-human-reading/",
-      "raw_summary": "MicrosoftのAIアシスタント「Microsoft Copilot」でユーザーが入力したプロンプトやアップロードした画像の一部を人間の契約スタッフが確認していると404 Mediaが報じました。契約スタッフはユーザーが画像編集を依頼した際のプロンプトや元画像、Copilotが生成した画像を見比べて品質を評価しているとのことです。 続きを読む...",
-      "published_at": "2026-09-29T17:50:00+09:00",
-      "lang": "ja",
-      "japanese_title": "Microsoft Copilotにアップロードした画像は人間が確認している、性的な画像などセンシティブな内容もレビュー対象に",
-      "bullets": [
-        "📌 MicrosoftのAIアシスタント「Microsoft Copilot」でユーザーが入力したプロンプトやアップロードした画像の一部を人間の契約スタッフが確認していると404 Mediaが報じました。契約スタッフはユーザーが画像編集を依頼した際のプロンプトや元画像、Copilotが生成した画像を見比..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
-    {
-      "id": "itmedia_ai_2",
-      "source_name": "ITmedia AI+",
-      "category": "国内ニュース",
-      "title": "ChatGPT、サブスク最上位プランの新規受付を再開へ “5時間制限”を完全撤廃 「利用枠を消費しない新機能」も",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/29/2000001851/",
-      "raw_summary": "米OpenAIのプロダクト責任者ティボー・ソティオ氏は、「ChatGPT」サブスクリプションの最上位プラン「Pro（20倍）」の新規受付を9月29日（現地時間）に再開すると発表した。",
-      "published_at": "2026-09-29T16:29:16+09:00",
-      "lang": "ja",
-      "japanese_title": "ChatGPT、サブスク最上位プランの新規受付を再開へ “5時間制限”を完全撤廃 「利用枠を消費しない新機能」も",
-      "bullets": [
-        "📌 米OpenAIのプロダクト責任者ティボー・ソティオ氏は、「ChatGPT」サブスクリプションの最上位プラン「Pro（20倍）」の新規受付を9月29日（現地時間）に再開すると発表した。..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
-    {
-      "id": "itmedia_ai_3",
-      "source_name": "ITmedia AI+",
-      "category": "国内ニュース",
-      "title": "AWS、AIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開 特定のLLMに依存せず入れ替え可能",
-      "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001837/",
-      "raw_summary": "Amazon Web Services（AWS）は、GPTやClaude、Gemini、Ollamaなど主要なLLMやLLMランタイムを基にした高性能なAIエージェントを簡単に自作できるツール「Strandsハーネス」をオープンソースで公開しました。",
-      "published_at": "2026-09-29T14:56:39+09:00",
-      "lang": "ja",
-      "japanese_title": "AWS、AIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開 特定のLLMに依存せず入れ替え可能",
-      "bullets": [
-        "📌 Amazon Web Services（AWS）は、GPTやClaude、Gemini、Ollamaなど主要なLLMやLLMランタイムを基にした高性能なAIエージェントを簡単に自作できるツール「Strandsハーネス」をオープンソースで公開しました。..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
-    {
-      "id": "techcrunch_ai_15",
-      "source_name": "TechCrunch AI",
-      "category": "海外・トレンド",
-      "title": "With Dazzle, Marissa Mayer bets your camera roll has more info on your life than your inbox",
-      "url": "https://techcrunch.com/2026/09/29/with-dazzle-marissa-mayer-bets-your-camera-roll-has-more-info-on-your-life-than-your-inbox/",
-      "raw_summary": "The former Yahoo CEO is introducing a new AI personal assistant based entirely on your photos.",
-      "published_at": "2026-09-29T13:53:01+00:00",
-      "lang": "en",
-      "japanese_title": "With Dazzle, Marissa Mayer bets your camera roll has more info on your life than your inbox",
-      "bullets": [
-        "📌 The former Yahoo CEO is introducing a new AI personal assistant based entirely on your photos...."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・トレンド"
-      ]
-    },
-    {
-      "id": "techcrunch_ai_16",
-      "source_name": "TechCrunch AI",
-      "category": "海外・トレンド",
-      "title": "Meta is expanding its AI agent Muse to small businesses",
-      "url": "https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/",
-      "raw_summary": "The tech giant says the agent can help owners run their business and find new customers.",
-      "published_at": "2026-09-29T13:47:30+00:00",
-      "lang": "en",
-      "japanese_title": "Meta is expanding its AI agent Muse to small businesses",
-      "bullets": [
-        "📌 The tech giant says the agent can help owners run their business and find new customers...."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・トレンド"
-      ]
-    },
-    {
-      "id": "itmedia_ai_4",
-      "source_name": "ITmedia AI+",
-      "category": "国内ニュース",
-      "title": "Geminiの「Gem」廃止へ、11月17日から「スキル」へ刷新",
-      "url": "https://www.itmedia.co.jp/news/article/2609/29/2000001839/",
-      "raw_summary": "米Googleは、生成AI「Gemini」のカスタムbot機能「Gem」を廃止し、後継の「スキル」へ移行するとアプリ内で告知した。個人向けアカウントでは11月17日から自動移行を始め、既存のGemはユーザーの操作なしにスキルへ変換する。",
-      "published_at": "2026-09-29T13:42:09+09:00",
-      "lang": "ja",
-      "japanese_title": "Geminiの「Gem」廃止へ、11月17日から「スキル」へ刷新",
-      "bullets": [
-        "📌 米Googleは、生成AI「Gemini」のカスタムbot機能「Gem」を廃止し、後継の「スキル」へ移行するとアプリ内で告知した。個人向けアカウントでは11月17日から自動移行を始め、既存のGemはユーザーの操作なしにスキルへ変換する。..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
-    {
-      "id": "techcrunch_ai_17",
-      "source_name": "TechCrunch AI",
-      "category": "海外・トレンド",
-      "title": "OpenAI apologizes to Australia after its AI agents breached government sites",
-      "url": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/",
-      "raw_summary": "The company also detailed how some of those breaches had happened, and outlined additional measures it is taking to assess the impact of the events.",
-      "published_at": "2026-09-29T12:45:05+00:00",
-      "lang": "en",
-      "japanese_title": "OpenAI apologizes to Australia after its AI agents breached government sites",
-      "bullets": [
-        "📌 The company also detailed how some of those breaches had happened, and outlined additional measures it is taking to assess the impact of the events...."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・トレンド"
-      ]
-    },
-    {
       "id": "techcrunch_ai_18",
       "source_name": "TechCrunch AI",
       "category": "海外・トレンド",
-      "title": "Reco raises $55M as AI agent security startups crowd the market",
-      "url": "https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/",
-      "raw_summary": "The round builds on a $30 million fundraise in February, taking the company's total funding to $140 million.",
-      "published_at": "2026-09-29T12:30:00+00:00",
+      "title": "Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents",
+      "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+      "raw_summary": "OpenAI isn't a public supporter of Nvidia's Open Agent Safety Platform, but it is privately working with Nvidia, TechCrunch has learned.",
+      "published_at": "2026-09-29T18:35:00+00:00",
       "lang": "en",
-      "japanese_title": "Reco raises $55M as AI agent security startups crowd the market",
+      "japanese_title": "Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents",
       "bullets": [
-        "📌 The round builds on a $30 million fundraise in February, taking the company's total funding to $140 million...."
+        "📌 OpenAI isn't a public supporter of Nvidia's Open Agent Safety Platform, but it is privately working with Nvidia, TechCrunch has learned...."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -271,14 +271,14 @@
       "id": "techcrunch_ai_19",
       "source_name": "TechCrunch AI",
       "category": "海外・トレンド",
-      "title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
-      "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
-      "raw_summary": "In its prospectus, Anthropic just told investors it's losing tens of billions of dollars a year, but also growing like crazy, and — oh yeah — its own AI might pose an existential risk to humanity.",
-      "published_at": "2026-09-29T05:13:43+00:00",
+      "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
+      "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+      "raw_summary": "OpenAI's newly announced suite of office features puts it into more direct competition with more traditional software companies.",
+      "published_at": "2026-09-29T17:45:51+00:00",
       "lang": "en",
-      "japanese_title": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity",
+      "japanese_title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
       "bullets": [
-        "📌 In its prospectus, Anthropic just told investors it's losing tens of billions of dollars a year, but also growing like crazy, and — oh yeah — its own ..."
+        "📌 OpenAI's newly announced suite of office features puts it into more direct competition with more traditional software companies...."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -290,14 +290,14 @@
       "id": "openai_blog_10",
       "source_name": "OpenAI Blog",
       "category": "海外・公式",
-      "title": "How we will do better for Australia",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "raw_summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-      "published_at": "2026-09-28T19:00:00+00:00",
+      "title": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "raw_summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "published_at": "2026-09-29T10:00:00+00:00",
       "lang": "en",
-      "japanese_title": "How we will do better for Australia",
+      "japanese_title": "Introducing GPT-6.1 Sol",
       "bullets": [
-        "📌 OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber ..."
+        "📌 Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token ..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -309,6 +309,44 @@
       "id": "openai_blog_11",
       "source_name": "OpenAI Blog",
       "category": "海外・公式",
+      "title": "DevDay 2026 Recap",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "raw_summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "published_at": "2026-09-29T10:00:00+00:00",
+      "lang": "en",
+      "japanese_title": "DevDay 2026 Recap",
+      "bullets": [
+        "📌 Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders...."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・公式"
+      ]
+    },
+    {
+      "id": "openai_blog_12",
+      "source_name": "OpenAI Blog",
+      "category": "海外・公式",
+      "title": "Introducing dots",
+      "url": "https://openai.com/index/introducing-dots",
+      "raw_summary": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+      "published_at": "2026-09-29T00:00:00+00:00",
+      "lang": "en",
+      "japanese_title": "Introducing dots",
+      "bullets": [
+        "📌 Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control whi..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・公式"
+      ]
+    },
+    {
+      "id": "openai_blog_13",
+      "source_name": "OpenAI Blog",
+      "category": "海外・公式",
       "title": "Towards safety cases for frontier AI training",
       "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
       "raw_summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
@@ -317,6 +355,25 @@
       "japanese_title": "Towards safety cases for frontier AI training",
       "bullets": [
         "📌 Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incide..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・公式"
+      ]
+    },
+    {
+      "id": "openai_blog_14",
+      "source_name": "OpenAI Blog",
+      "category": "海外・公式",
+      "title": "How we will do better for Australia",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "raw_summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+      "published_at": "2026-09-28T19:00:00+00:00",
+      "lang": "en",
+      "japanese_title": "How we will do better for Australia",
+      "bullets": [
+        "📌 OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber ..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -336,63 +393,6 @@
       "japanese_title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
       "bullets": [
         "📌 ..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・公式"
-      ]
-    },
-    {
-      "id": "openai_blog_12",
-      "source_name": "OpenAI Blog",
-      "category": "海外・公式",
-      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-      "raw_summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
-      "published_at": "2026-09-28T07:00:00+00:00",
-      "lang": "en",
-      "japanese_title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "bullets": [
-        "📌 OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engine..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・公式"
-      ]
-    },
-    {
-      "id": "openai_blog_13",
-      "source_name": "OpenAI Blog",
-      "category": "海外・公式",
-      "title": "Are you a Codex Original?",
-      "url": "https://openai.com/form/codex-originals",
-      "raw_summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
-      "published_at": "2026-09-28T00:00:00+00:00",
-      "lang": "en",
-      "japanese_title": "Are you a Codex Original?",
-      "bullets": [
-        "📌 We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part ..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・公式"
-      ]
-    },
-    {
-      "id": "openai_blog_14",
-      "source_name": "OpenAI Blog",
-      "category": "海外・公式",
-      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "raw_summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-      "published_at": "2026-09-28T00:00:00+00:00",
-      "lang": "en",
-      "japanese_title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "bullets": [
-        "📌 GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
