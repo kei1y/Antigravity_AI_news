@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>AI News Digest | 毎朝の最新AIニュース要約</title>
+    
+    <!-- PWA Settings -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0f172a">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="AI Digest">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%);
+            --card-bg: rgba(30, 41, 59, 0.75);
+            --card-border: rgba(255, 255, 255, 0.1);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --star-color: #fbbf24;
+            --accent-purple: #8b5cf6;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-gradient);
+            background-attachment: fixed;
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            padding-bottom: 40px;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(15, 23, 42, 0.85);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--card-border);
+            padding: 14px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 900;
+            font-size: 1.25rem;
+            background: linear-gradient(to right, #c084fc, #60a5fa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .logo-icon {
+            font-size: 1.4rem;
+            -webkit-text-fill-color: initial;
+        }
+
+        .update-badge {
+            font-size: 0.75rem;
+            background: rgba(139, 92, 246, 0.2);
+            color: #c084fc;
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-weight: 500;
+        }
+
+        .container {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+
+        .date-banner {
+            margin-bottom: 16px;
+        }
+
+        .date-banner h1 {
+            font-size: 1.4rem;
+            font-weight: 800;
+            margin-bottom: 2px;
+        }
+
+        .date-banner p {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        /* Upper Main Navigation Tabs */
+        .main-tab-nav {
+            display: flex;
+            background: rgba(15, 23, 42, 0.6);
+            padding: 4px;
+            border-radius: 14px;
+            border: 1px solid var(--card-border);
+            margin-bottom: 12px;
+        }
+
+        .main-tab-btn {
+            flex: 1;
+            padding: 10px 4px;
+            text-align: center;
+            border: none;
+            background: transparent;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            font-weight: 700;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+        }
+
+        .main-tab-btn.active {
+            background: #334155;
+            color: #ffffff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .main-tab-btn.active#tab-top10 {
+            background: linear-gradient(135deg, rgba(251, 191, 36, 0.25) 0%, rgba(245, 158, 11, 0.25) 100%);
+            color: #fef08a;
+            border: 1px solid rgba(251, 191, 36, 0.4);
+        }
+
+        .tab-count {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 2px 7px;
+            border-radius: 10px;
+            font-size: 0.72rem;
+        }
+
+        /* Source Filter Tabs (Sub Nav - Horizontally Scrollable) */
+        .source-filter-container {
+            margin-bottom: 20px;
+        }
+
+        .source-filter-title {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+
+        .source-filter-bar {
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            padding-bottom: 6px;
+            scrollbar-width: none;
+        }
+
+        .source-filter-bar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .source-chip {
+            background: rgba(30, 41, 59, 0.6);
+            border: 1px solid var(--card-border);
+            color: var(--text-secondary);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            white-space: nowrap;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .source-chip.active {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.3) 0%, rgba(59, 130, 246, 0.3) 100%);
+            color: #ffffff;
+            border-color: rgba(168, 85, 247, 0.5);
+            box-shadow: 0 2px 8px rgba(139, 92, 246, 0.2);
+        }
+
+        /* News Cards */
+        .news-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 18px;
+            padding: 18px;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            position: relative;
+            overflow: hidden;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .card.impact-3 {
+            border-color: rgba(251, 191, 36, 0.4);
+            background: linear-gradient(180deg, rgba(30, 41, 59, 0.85) 0%, rgba(45, 34, 15, 0.45) 100%);
+        }
+
+        .card.impact-3::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(to bottom, #fbbf24, #f59e0b);
+        }
+
+        .card-header-badges {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            gap: 8px;
+        }
+
+        .badge-group {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .top10-badge {
+            font-size: 0.7rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            color: #1e1b4b;
+            padding: 2px 8px;
+            border-radius: 6px;
+        }
+
+        .region-badge {
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 6px;
+        }
+
+        .region-japan {
+            background: rgba(239, 68, 68, 0.2);
+            color: #fca5a5;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+
+        .region-overseas {
+            background: rgba(59, 130, 246, 0.2);
+            color: #93c5fd;
+            border: 1px solid rgba(59, 130, 246, 0.3);
+        }
+
+        .genre-badge {
+            font-size: 0.7rem;
+            font-weight: 700;
+            background: rgba(168, 85, 247, 0.2);
+            color: #e9d5ff;
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            padding: 2px 8px;
+            border-radius: 6px;
+        }
+
+        .source-tag {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            background: rgba(255, 255, 255, 0.08);
+            padding: 2px 8px;
+            border-radius: 6px;
+        }
+
+        .impact-stars {
+            color: var(--star-color);
+            font-size: 0.85rem;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        .card-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            line-height: 1.45;
+            margin-bottom: 12px;
+            color: #ffffff;
+        }
+
+        .bullets-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: 16px;
+            background: rgba(15, 23, 42, 0.45);
+            padding: 12px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .bullets-list li {
+            font-size: 0.88rem;
+            color: #cbd5e1;
+            line-height: 1.5;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            padding-top: 10px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .tags-container {
+            display: flex;
+            gap: 4px;
+            flex-wrap: wrap;
+        }
+
+        .tag-pill {
+            font-size: 0.68rem;
+            color: #94a3b8;
+            background: rgba(148, 163, 184, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .action-buttons {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .mark-read-btn {
+            background: rgba(34, 197, 94, 0.15);
+            color: #4ade80;
+            border: 1px solid rgba(34, 197, 94, 0.3);
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: all 0.2s ease;
+        }
+
+        .mark-read-btn:active {
+            background: rgba(34, 197, 94, 0.3);
+        }
+
+        .read-more-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            color: #60a5fa;
+            text-decoration: none;
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 6px 12px;
+            border-radius: 8px;
+            background: rgba(59, 130, 246, 0.12);
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text-secondary);
+            background: var(--card-bg);
+            border-radius: 18px;
+            border: 1px dashed var(--card-border);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 36px;
+            color: var(--text-muted);
+            font-size: 0.78rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <span class="logo-icon">⚡</span>
+            <span>AI News Digest</span>
+        </div>
+        <div class="update-badge">毎朝7時自動更新</div>
+    </header>
+
+    <div class="container">
+        <div class="date-banner">
+            <h1>2026年09月29日 (Tue)</h1>
+            <p>Gemini AIが要約した最新AIトピックス</p>
+        </div>
+
+        <!-- Upper Main Navigation Tabs -->
+        <nav class="main-tab-nav">
+            <button class="main-tab-btn active" id="tab-top10" onclick="switchMainTab('top10')">
+                <span>🔥 注目 TOP10</span>
+                <span class="tab-count" id="top10-count">0</span>
+            </button>
+            <button class="main-tab-btn" id="tab-unread" onclick="switchMainTab('unread')">
+                <span>📨 未読</span>
+                <span class="tab-count" id="unread-count">0</span>
+            </button>
+            <button class="main-tab-btn" id="tab-read" onclick="switchMainTab('read')">
+                <span>✅ 既読</span>
+                <span class="tab-count" id="read-count">0</span>
+            </button>
+        </nav>
+
+        <!-- Sub Source Filter Bar (Horizontally Scrollable) -->
+        <div class="source-filter-container">
+            <div class="source-filter-title">サイトで絞り込み</div>
+            <div class="source-filter-bar" id="source-filter-bar">
+                <!-- 動的にサイト別チップが挿入されます -->
+            </div>
+        </div>
+
+        <main class="news-list" id="news-container">
+            
+            <article class="card impact-2" data-article-id="gigazine_ai_5" data-source-name="GIGAZINE (AI)" data-is-top10="true">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        <span class="top10-badge">🔥 TOP 10</span>
+                        <span class="region-badge region-japan">🇯🇵 国内</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">GIGAZINE (AI)</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">無料でJev互換の小型高速意思決定モデル「Jeff」、ローカル環境で約22～28ミリ秒と爆速</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 ChatGPTの共同開発者であるがディオゴ・アルメイダ氏がCEOを務めるTypeSafe AIが開発した、意思決定モデルの「Jev」と同じように、リクエスト形式でコードに組み込むことができる小型の意思決定モデルが「Jeff」です。RTX PRO 6000の場合は1回の意思決定当たり約22ミリ秒、 A...</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#国内ニュース</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('gigazine_ai_5')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://gigazine.net/news/20260929-jeff/" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="itmedia_ai_0" data-source-name="ITmedia AI+" data-is-top10="true">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        <span class="top10-badge">🔥 TOP 10</span>
+                        <span class="region-badge region-japan">🇯🇵 国内</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">ITmedia AI+</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">Anthropic、IPO目論見書でAIによる「人類存亡リスク」を警告 海外報道</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 英Reutersは9月28日（現地時間）、米Anthropicが新規株式公開（IPO）の目論見書で、AIが人類存亡に関わるリスクをもたらす可能性があると投資家に警告していると報じた。...</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#国内ニュース</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('itmedia_ai_0')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://www.itmedia.co.jp/news/article/2609/29/2000001860/" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="gigazine_ai_6" data-source-name="GIGAZINE (AI)" data-is-top10="true">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        <span class="top10-badge">🔥 TOP 10</span>
+                        <span class="region-badge region-japan">🇯🇵 国内</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">GIGAZINE (AI)</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">AIエージェント「Manus 2.0」リリース、さらにパーソナルAIエージェント向けアプリ「Cue」やプロフェッショナルなAIワークスペースを実現するデスクトップアプリ「Manus Studio」も</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 アジア圏を中心にサービスを展開し、一度Metaとの買収合意に至った後に再び独立したという異色の経歴を持つAI起業のManusが、AIエージェントの「Manus 2.0」を発表しました。独立後初の大型アップデートということで、「ただのバージョンアップではない」とアピールされています。 続きを読む......</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#国内ニュース</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('gigazine_ai_6')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://gigazine.net/news/20260929-manus-2-0/" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="gigazine_ai_7" data-source-name="GIGAZINE (AI)" data-is-top10="true">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        <span class="top10-badge">🔥 TOP 10</span>
+                        <span class="region-badge region-japan">🇯🇵 国内</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">GIGAZINE (AI)</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">「GPT-6 Astraは旧世代モデルよりサイバー攻撃を実行しやすい傾向にある」というイギリス政府機関の分析結果が公開される</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 OpenAIはAIの開発中に「国連の統計サイト」「オーストラリアの公的医療サービス」「アメリカの教育省・商務省・証券取引委員会」といった重要サービスに対する攻撃を実行してしまったことが明らかになっています。新たに、イギリスの政府機関であるAI Security Institute(AISI)が「GP...</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#国内ニュース</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('gigazine_ai_7')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://gigazine.net/news/20260929-gpt-6-astra-aisi-report/" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="gigazine_ai_8" data-source-name="GIGAZINE (AI)" data-is-top10="true">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        <span class="top10-badge">🔥 TOP 10</span>
+                        <span class="region-badge region-japan">🇯🇵 国内</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">GIGAZINE (AI)</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">MetaのAI「Muse」にFacebook Marketplaceの対応を任せたら勝手に値下げ＆住所公開、購入者が自宅に来る事態に</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 Metaが2026年9月に公開したパーソナルAIエージェント「Muse」にFacebook Marketplaceでの販売対応を任せたところユーザーの承認を得ずに値下げに応じた上、自宅の住所まで購入希望者に伝え、実際に購入希望者が自宅を訪れる事態が発生しました。 続きを読む......</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#国内ニュース</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('gigazine_ai_8')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://gigazine.net/news/20260929-meta-muse-give-home-address/" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="itmedia_ai_1" data-source-name="ITmedia AI+" data-is-top10="true">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        <span class="top10-badge">🔥 TOP 10</span>
+                        <span class="region-badge region-japan">🇯🇵 国内</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">ITmedia AI+</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">7割の企業が生成AI「個人利用」への対策せず デロイト調査</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 デロイト トーマツ グループが不正リスク調査白書を発表。業務で使うAIの個人利用についてガイドラインを策定・周知している企業は5％で、74％は「実施していない、わからない」と回答。対応は利用者本人に委ねられているとした。...</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#国内ニュース</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('itmedia_ai_1')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://www.itmedia.co.jp/aiplus/article/2609/29/2000001855/" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="gigazine_ai_9" data-source-name="GIGAZINE (AI)" data-is-top10="true">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        <span class="top10-badge">🔥 TOP 10</span>
+                        <span class="region-badge region-japan">🇯🇵 国内</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">GIGAZINE (AI)</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">Microsoft Copilotにアップロードした画像は人間が確認している、性的な画像などセンシティブな内容もレビュー対象に</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 MicrosoftのAIアシスタント「Microsoft Copilot」でユーザーが入力したプロンプトやアップロードした画像の一部を人間の契約スタッフが確認していると404 Mediaが報じました。契約スタッフはユーザーが画像編集を依頼した際のプロンプトや元画像、Copilotが生成した画像を見比...</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#国内ニュース</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('gigazine_ai_9')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://gigazine.net/news/20260929-microsoft-copilot-human-reading/" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="itmedia_ai_2" data-source-name="ITmedia AI+" data-is-top10="true">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        <span class="top10-badge">🔥 TOP 10</span>
+                        <span class="region-badge region-japan">🇯🇵 国内</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">ITmedia AI+</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">ChatGPT、サブスク最上位プランの新規受付を再開へ “5時間制限”を完全撤廃 「利用枠を消費しない新機能」も</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 米OpenAIのプロダクト責任者ティボー・ソティオ氏は、「ChatGPT」サブスクリプションの最上位プラン「Pro（20倍）」の新規受付を9月29日（現地時間）に再開すると発表した。...</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#国内ニュース</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('itmedia_ai_2')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://www.itmedia.co.jp/aiplus/article/2609/29/2000001851/" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="itmedia_ai_3" data-source-name="ITmedia AI+" data-is-top10="true">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        <span class="top10-badge">🔥 TOP 10</span>
+                        <span class="region-badge region-japan">🇯🇵 国内</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">ITmedia AI+</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">AWS、AIエージェントを自作できるツール「Strandsハーネス」をオープンソースで公開 特定のLLMに依存せず入れ替え可能</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 Amazon Web Services（AWS）は、GPTやClaude、Gemini、Ollamaなど主要なLLMやLLMランタイムを基にした高性能なAIエージェントを簡単に自作できるツール「Strandsハーネス」をオープンソースで公開しました。...</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#国内ニュース</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('itmedia_ai_3')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://www.itmedia.co.jp/news/article/2609/29/2000001837/" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="techcrunch_ai_15" data-source-name="TechCrunch AI" data-is-top10="true">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        <span class="top10-badge">🔥 TOP 10</span>
+                        <span class="region-badge region-overseas">🌍 海外</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">TechCrunch AI</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">With Dazzle, Marissa Mayer bets your camera roll has more info on your life than your inbox</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 The former Yahoo CEO is introducing a new AI personal assistant based entirely on your photos....</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#海外・トレンド</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('techcrunch_ai_15')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://techcrunch.com/2026/09/29/with-dazzle-marissa-mayer-bets-your-camera-roll-has-more-info-on-your-life-than-your-inbox/" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="techcrunch_ai_16" data-source-name="TechCrunch AI" data-is-top10="false">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        
+                        <span class="region-badge region-overseas">🌍 海外</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">TechCrunch AI</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">Meta is expanding its AI agent Muse to small businesses</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 The tech giant says the agent can help owners run their business and find new customers....</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#海外・トレンド</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('techcrunch_ai_16')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="itmedia_ai_4" data-source-name="ITmedia AI+" data-is-top10="false">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        
+                        <span class="region-badge region-japan">🇯🇵 国内</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">ITmedia AI+</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">Geminiの「Gem」廃止へ、11月17日から「スキル」へ刷新</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 米Googleは、生成AI「Gemini」のカスタムbot機能「Gem」を廃止し、後継の「スキル」へ移行するとアプリ内で告知した。個人向けアカウントでは11月17日から自動移行を始め、既存のGemはユーザーの操作なしにスキルへ変換する。...</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#国内ニュース</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('itmedia_ai_4')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://www.itmedia.co.jp/news/article/2609/29/2000001839/" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="techcrunch_ai_17" data-source-name="TechCrunch AI" data-is-top10="false">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        
+                        <span class="region-badge region-overseas">🌍 海外</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">TechCrunch AI</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">OpenAI apologizes to Australia after its AI agents breached government sites</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 The company also detailed how some of those breaches had happened, and outlined additional measures it is taking to assess the impact of the events....</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#海外・トレンド</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('techcrunch_ai_17')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="techcrunch_ai_18" data-source-name="TechCrunch AI" data-is-top10="false">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        
+                        <span class="region-badge region-overseas">🌍 海外</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">TechCrunch AI</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">Reco raises $55M as AI agent security startups crowd the market</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 The round builds on a $30 million fundraise in February, taking the company&#x27;s total funding to $140 million....</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#海外・トレンド</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('techcrunch_ai_18')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://techcrunch.com/2026/09/29/reco-raises-55m-as-ai-agent-security-startups-crowd-the-market/" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="techcrunch_ai_19" data-source-name="TechCrunch AI" data-is-top10="false">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        
+                        <span class="region-badge region-overseas">🌍 海外</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">TechCrunch AI</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 In its prospectus, Anthropic just told investors it&#x27;s losing tens of billions of dollars a year, but also growing like crazy, and — oh yeah — its own ...</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#海外・トレンド</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('techcrunch_ai_19')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="openai_blog_10" data-source-name="OpenAI Blog" data-is-top10="false">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        
+                        <span class="region-badge region-overseas">🌍 海外</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">OpenAI Blog</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">How we will do better for Australia</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber ...</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#海外・公式</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('openai_blog_10')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://openai.com/index/how-we-will-do-better-for-australia" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="openai_blog_11" data-source-name="OpenAI Blog" data-is-top10="false">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        
+                        <span class="region-badge region-overseas">🌍 海外</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">OpenAI Blog</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">Towards safety cases for frontier AI training</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incide...</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#海外・公式</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('openai_blog_11')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://openai.com/index/towards-safety-cases-for-frontier-ai-training" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="google_ai_20" data-source-name="Google AI Blog" data-is-top10="false">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        
+                        <span class="region-badge region-overseas">🌍 海外</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">Google AI Blog</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">Watch the winning trailer from the Future Vision XPRIZE, The Gifted.</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 ...</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#海外・公式</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('google_ai_20')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="openai_blog_12" data-source-name="OpenAI Blog" data-is-top10="false">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        
+                        <span class="region-badge region-overseas">🌍 海外</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">OpenAI Blog</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">The Lenfest Institute grows landmark program with expanded OpenAI support</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engine...</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#海外・公式</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('openai_blog_12')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://openai.com/index/lenfest-ai-collaborative-expansion" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="openai_blog_13" data-source-name="OpenAI Blog" data-is-top10="false">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        
+                        <span class="region-badge region-overseas">🌍 海外</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">OpenAI Blog</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">Are you a Codex Original?</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part ...</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#海外・公式</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('openai_blog_13')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://openai.com/form/codex-originals" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+
+            <article class="card impact-2" data-article-id="openai_blog_14" data-source-name="OpenAI Blog" data-is-top10="false">
+                <div class="card-header-badges">
+                    <div class="badge-group">
+                        
+                        <span class="region-badge region-overseas">🌍 海外</span>
+                        <span class="genre-badge">🚀 先進技術</span>
+                        <span class="source-tag">OpenAI Blog</span>
+                    </div>
+                    <span class="impact-stars">★★☆ 注目</span>
+                </div>
+
+                <h2 class="card-title">Basis completes a tax workbook 2x faster with GPT-6 Astra</h2>
+
+                <ul class="bullets-list">
+                    <li>📌 GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in...</li>
+
+                </ul>
+
+                <div class="card-footer">
+                    <div class="tags-container">
+                        <span class="tag-pill">#海外・公式</span>
+
+                    </div>
+                    <div class="action-buttons">
+                        <button class="mark-read-btn" onclick="toggleReadState('openai_blog_14')">
+                            <span class="btn-icon">✓</span> <span class="btn-text">既読にする</span>
+                        </button>
+                        <a href="https://openai.com/index/basis-tax-workbook-with-astra" target="_blank" rel="noopener noreferrer" class="read-more-btn">
+                            原文 ➔
+                        </a>
+                    </div>
+                </div>
+            </article>
+        
+        </main>
+
+        <div id="empty-state" class="empty-state" style="display: none;">
+            <p id="empty-msg">記事はありません🎉</p>
+        </div>
+
+        <footer>
+            <p>Powered by GitHub Actions & Google Gemini API</p>
+            <p style="margin-top: 4px;">Updated at 23:44 JST</p>
+        </footer>
+    </div>
+
+    <script>
+        const STORAGE_KEY = 'ai_digest_read_ids_v1';
+        let currentMainTab = 'top10'; // 'top10', 'unread', 'read'
+        let currentSource = 'ALL';
+
+        function getReadIds() {
+            try {
+                return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+            } catch (e) {
+                return [];
+            }
+        }
+
+        function saveReadIds(ids) {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(ids));
+        }
+
+        function toggleReadState(articleId) {
+            let readIds = getReadIds();
+            if (readIds.includes(articleId)) {
+                readIds = readIds.filter(id => id !== articleId);
+            } else {
+                readIds.push(articleId);
+            }
+            saveReadIds(readIds);
+            renderUI();
+        }
+
+        function switchMainTab(tab) {
+            currentMainTab = tab;
+            document.getElementById('tab-top10').classList.toggle('active', tab === 'top10');
+            document.getElementById('tab-unread').classList.toggle('active', tab === 'unread');
+            document.getElementById('tab-read').classList.toggle('active', tab === 'read');
+            renderUI();
+        }
+
+        function switchSourceFilter(sourceName) {
+            currentSource = sourceName;
+            document.querySelectorAll('.source-chip').forEach(chip => {
+                chip.classList.toggle('active', chip.getAttribute('data-source') === sourceName);
+            });
+            renderUI();
+        }
+
+        function initSourceFilterChips() {
+            const cards = document.querySelectorAll('.card');
+            const sources = new Set();
+            cards.forEach(c => {
+                const src = c.getAttribute('data-source-name');
+                if (src) sources.add(src);
+            });
+
+            const filterBar = document.getElementById('source-filter-bar');
+            let html = '<button class="source-chip active" data-source="ALL" onclick="switchSourceFilter(\'ALL\')">✨ すべて</button>';
+            
+            sources.forEach(src => {
+                html += `<button class="source-chip" data-source="${src}" onclick="switchSourceFilter('${src}')">${src}</button>`;
+            });
+
+            filterBar.innerHTML = html;
+        }
+
+        function renderUI() {
+            const readIds = getReadIds();
+            const cards = document.querySelectorAll('.card');
+            
+            let top10VisibleCount = 0;
+            let unreadVisibleCount = 0;
+            let readVisibleCount = 0;
+
+            cards.forEach(card => {
+                const id = card.getAttribute('data-article-id');
+                const srcName = card.getAttribute('data-source-name');
+                const isTop10 = card.getAttribute('data-is-top10') === 'true';
+                const isRead = readIds.includes(id);
+
+                const btnText = card.querySelector('.btn-text');
+                const btnIcon = card.querySelector('.btn-icon');
+                const btn = card.querySelector('.mark-read-btn');
+
+                if (isRead) {
+                    readVisibleCount++;
+                    if (btnText) btnText.textContent = '未読に戻す';
+                    if (btnIcon) btnIcon.textContent = '↩';
+                    if (btn) btn.style.background = 'rgba(148, 163, 184, 0.15)';
+                    if (btn) btn.style.color = '#94a3b8';
+                } else {
+                    unreadVisibleCount++;
+                    if (btnText) btnText.textContent = '既読にする';
+                    if (btnIcon) btnIcon.textContent = '✓';
+                    if (btn) btn.style.background = 'rgba(34, 197, 94, 0.15)';
+                    if (btn) btn.style.color = '#4ade80';
+                }
+
+                if (isTop10 && !isRead) {
+                    top10VisibleCount++;
+                }
+
+                // フィルターロジック
+                let matchesMainTab = false;
+                if (currentMainTab === 'top10') {
+                    matchesMainTab = isTop10;
+                } else if (currentMainTab === 'unread') {
+                    matchesMainTab = !isRead;
+                } else if (currentMainTab === 'read') {
+                    matchesMainTab = isRead;
+                }
+
+                const matchesSource = (currentSource === 'ALL') || (srcName === currentSource);
+
+                if (matchesMainTab && matchesSource) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            document.getElementById('top10-count').textContent = top10VisibleCount;
+            document.getElementById('unread-count').textContent = unreadVisibleCount;
+            document.getElementById('read-count').textContent = readVisibleCount;
+
+            const visibleCards = Array.from(cards).filter(c => c.style.display !== 'none');
+            const emptyState = document.getElementById('empty-state');
+            const emptyMsg = document.getElementById('empty-msg');
+
+            if (visibleCards.length === 0) {
+                emptyState.style.display = 'block';
+                if (currentMainTab === 'top10') {
+                    emptyMsg.textContent = '注目TOP10の未読ニュースはありません！🎉';
+                } else if (currentMainTab === 'unread') {
+                    emptyMsg.textContent = currentSource === 'ALL' 
+                        ? 'すべての未読ニュースを読み終えました！🎉' 
+                        : `「${currentSource}」の未読ニュースはありません🎉`;
+                } else {
+                    emptyMsg.textContent = '既読の記事はありません。';
+                }
+            } else {
+                emptyState.style.display = 'none';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            initSourceFilterChips();
+            renderUI();
+        });
+    </script>
+</body>
+</html>

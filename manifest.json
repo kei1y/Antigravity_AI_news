@@ -1,0 +1,9 @@
+{
+  "name": "AI News Digest",
+  "short_name": "AI Digest",
+  "description": "毎朝更新される最新AIニュース日本語要約アプリ",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a"
+}
