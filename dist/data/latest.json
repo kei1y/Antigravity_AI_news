@@ -1,0 +1,46 @@
+{
+  "updated_at": "2026-09-29T21:48:30.618867+09:00",
+  "articles": [
+    {
+      "id": "art_pivot_1",
+      "source_name": "PIVOT",
+      "category": "ビジネス・AI活用",
+      "lang": "ja",
+      "title": "PIVOT AIインタビュー",
+      "japanese_title": "【PIVOT】AI時代のキャリア戦略とリスキリング最新動向",
+      "url": "https://example.com/pivot",
+      "raw_summary": "PIVOTのAI対談記事です。",
+      "published_at": "2026-09-29T21:00:00+09:00",
+      "impact_score": 3,
+      "genre": "ビジネス・活用",
+      "bullets": [
+        "📌 生成AI導入で変化するビジネス人材の必須スキルとは",
+        "💡 経営層が注力すべきAIガバナンスと投資領域"
+      ],
+      "tags": [
+        "PIVOT",
+        "キャリア"
+      ]
+    },
+    {
+      "id": "art_itmedia_1",
+      "source_name": "ITmedia AI+",
+      "category": "国内ニュース",
+      "lang": "ja",
+      "title": "ITmedia AIニュース",
+      "japanese_title": "国内開発の日本語LLM、ベンチマークテストで世界トップ級を達成",
+      "url": "https://example.com/itmedia",
+      "raw_summary": "国内LLMニュース。",
+      "published_at": "2026-09-29T20:00:00+09:00",
+      "impact_score": 3,
+      "genre": "先進技術",
+      "bullets": [
+        "📌 175Bパラメータの軽量モデルで高速推論を実現"
+      ],
+      "tags": [
+        "ITmedia",
+        "国産LLM"
+      ]
+    }
+  ]
+}

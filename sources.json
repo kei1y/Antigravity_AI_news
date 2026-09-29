@@ -1,0 +1,53 @@
+[
+  {
+    "id": "itmedia_ai",
+    "name": "ITmedia AI+",
+    "url": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
+    "category": "国内ニュース",
+    "lang": "ja"
+  },
+  {
+    "id": "gigazine_ai",
+    "name": "GIGAZINE (AI)",
+    "url": "https://gigazine.net/news/rss_2.0/",
+    "category": "国内ニュース",
+    "filter_keyword": "AI",
+    "lang": "ja"
+  },
+  {
+    "id": "ledge_ai",
+    "name": "Ledge.ai",
+    "url": "https://ledge.ai/feed/",
+    "category": "ビジネス・活用",
+    "lang": "ja"
+  },
+  {
+    "id": "openai_blog",
+    "name": "OpenAI Blog",
+    "url": "https://openai.com/news/rss.xml",
+    "category": "海外・公式",
+    "lang": "en"
+  },
+  {
+    "id": "techcrunch_ai",
+    "name": "TechCrunch AI",
+    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "category": "海外・トレンド",
+    "lang": "en"
+  },
+  {
+    "id": "pivot_media",
+    "name": "PIVOT",
+    "url": "https://pivotmedia.co.jp/feed/",
+    "category": "ビジネス・AI活用",
+    "lang": "ja"
+  },
+  {
+    "id": "google_ai",
+    "name": "Google AI Blog",
+    "url": "https://blog.google/technology/ai/rss/",
+    "category": "海外・公式",
+    "lang": "en"
+  }
+]
+
