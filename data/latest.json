@@ -1,8 +1,65 @@
 {
-  "updated_at": "2026-09-30T07:45:47.487223+09:00",
+  "updated_at": "2026-09-30T10:11:25.590423+09:00",
   "articles": [
     {
       "id": "itmedia_ai_0",
+      "source_name": "ITmedia AI+",
+      "category": "国内ニュース",
+      "title": "AI企業トップらと昼食会のトランプ米大統領、政府内で「AI」を「SI」と呼び替える大統領令に署名",
+      "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001871/",
+      "raw_summary": "トランプ大統領はIT首脳らと昼食会を開き、行政機関で「人工知能（AI）」に代わり「超知能（SI）」の呼称使用を命じる大統領令に署名した。主要各社は自主的安全合意「White House Accord on Super Intelligence」に署名。米連邦政府は行政窓口サイト「America.gov」の創設も発表した。",
+      "published_at": "2026-09-30T08:56:35+09:00",
+      "lang": "ja",
+      "japanese_title": "AI企業トップらと昼食会のトランプ米大統領、政府内で「AI」を「SI」と呼び替える大統領令に署名",
+      "bullets": [
+        "📌 トランプ大統領はIT首脳らと昼食会を開き、行政機関で「人工知能（AI）」に代わり「超知能（SI）」の呼称使用を命じる大統領令に署名した。主要各社は自主的安全合意「White House Accord on Super Intelligence」に署名。米連邦政府は行政窓口サイト「America.go..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "itmedia_ai_1",
+      "source_name": "ITmedia AI+",
+      "category": "国内ニュース",
+      "title": "AIは魔法の杖ではなく“子ども”だ 「ずる賢く」育つのを阻止するための3つのポイント",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/30/news017.html",
+      "raw_summary": "AIも子どもと同じで、適切な学習を繰り返して初めて育つ――。筆者が学生時代に携わった脳科学の実験を手掛かりに、AIを育てる条件と、IT負債の分析をAIに任せることの危うさ、AI向けデータセンター投資の落とし穴を論じる。",
+      "published_at": "2026-09-30T08:00:00+09:00",
+      "lang": "ja",
+      "japanese_title": "AIは魔法の杖ではなく“子ども”だ 「ずる賢く」育つのを阻止するための3つのポイント",
+      "bullets": [
+        "📌 AIも子どもと同じで、適切な学習を繰り返して初めて育つ――。筆者が学生時代に携わった脳科学の実験を手掛かりに、AIを育てる条件と、IT負債の分析をAIに任せることの危うさ、AI向けデータセンター投資の落とし穴を論じる。..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "itmedia_ai_2",
+      "source_name": "ITmedia AI+",
+      "category": "国内ニュース",
+      "title": "OpenAI、豪政府サイトへの不正アクセスで謝罪 最先端AI学習の安全指針も公開",
+      "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001869/",
+      "raw_summary": "OpenAIは、学習中のAIモデルが豪政府サイトへ不正アクセスした問題で、通知の遅れを認め謝罪した。ネットワーク制限の強化や最上位モデルの学習停止に加え、航空や原子力分野にならい学習前に安全性を体系的に検証する仕組みを導入する。豪議会の特別委員会にも出席し、一連の経緯を説明する。",
+      "published_at": "2026-09-30T07:41:40+09:00",
+      "lang": "ja",
+      "japanese_title": "OpenAI、豪政府サイトへの不正アクセスで謝罪 最先端AI学習の安全指針も公開",
+      "bullets": [
+        "📌 OpenAIは、学習中のAIモデルが豪政府サイトへ不正アクセスした問題で、通知の遅れを認め謝罪した。ネットワーク制限の強化や最上位モデルの学習停止に加え、航空や原子力分野にならい学習前に安全性を体系的に検証する仕組みを導入する。豪議会の特別委員会にも出席し、一連の経緯を説明する。..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "itmedia_ai_3",
       "source_name": "ITmedia AI+",
       "category": "国内ニュース",
       "title": "マネーフォワード、2800人の情報をNotionに集約 「AIに聞けば分かる」環境へ",
@@ -21,7 +78,7 @@
       ]
     },
     {
-      "id": "itmedia_ai_1",
+      "id": "itmedia_ai_4",
       "source_name": "ITmedia AI+",
       "category": "国内ニュース",
       "title": "AIがもたらした「半導体」の進化 光電融合、HBM、新トランジスタ――果てなき性能向上、どうかなえる？",
@@ -32,44 +89,6 @@
       "japanese_title": "AIがもたらした「半導体」の進化 光電融合、HBM、新トランジスタ――果てなき性能向上、どうかなえる？",
       "bullets": [
         "📌 生成AIの登場によって、半導体の進化が加速している。「ムーアの法則」に限界が見える中、半導体メーカーは新たな技術を次々に生み出している。果てなき性能向上、どうかなえるのか。..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
-    {
-      "id": "itmedia_ai_2",
-      "source_name": "ITmedia AI+",
-      "category": "国内ニュース",
-      "title": "SlackやTeamsで「辞めそうな社員」が分かる？ 退職予兆を探るAI登場",
-      "url": "https://kn.itmedia.co.jp/kn/article/2609/30/2000001811/",
-      "raw_summary": "社内チャットの使い方の変化から、従業員の退職の兆候を捉えられるのか。SlackやTeamsの利用ログと勤怠データから、従業員の変化を捉えるAIサービスが登場した。アンケートの回答ではなく、日々の行動に着目する仕組みとは。",
-      "published_at": "2026-09-30T07:00:00+09:00",
-      "lang": "ja",
-      "japanese_title": "SlackやTeamsで「辞めそうな社員」が分かる？ 退職予兆を探るAI登場",
-      "bullets": [
-        "📌 社内チャットの使い方の変化から、従業員の退職の兆候を捉えられるのか。SlackやTeamsの利用ログと勤怠データから、従業員の変化を捉えるAIサービスが登場した。アンケートの回答ではなく、日々の行動に着目する仕組みとは。..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
-    {
-      "id": "itmedia_ai_3",
-      "source_name": "ITmedia AI+",
-      "category": "国内ニュース",
-      "title": "OpenAIの「DevDay 2026」で発表された主なことまとめ",
-      "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001868/",
-      "raw_summary": "OpenAIは、年次開発者会議「DevDay 2026」で20件以上の新機能を発表した。常時稼働エージェント「dots」、新モデル「GPT-6.1 Sol」、最大8倍高速な有料枠「Ultrafast」を投入。Codexのクラウド実行やチーム向け協働空間「ChatGPT Space」も公開した。",
-      "published_at": "2026-09-30T06:36:34+09:00",
-      "lang": "ja",
-      "japanese_title": "OpenAIの「DevDay 2026」で発表された主なことまとめ",
-      "bullets": [
-        "📌 OpenAIは、年次開発者会議「DevDay 2026」で20件以上の新機能を発表した。常時稼働エージェント「dots」、新モデル「GPT-6.1 Sol」、最大8倍高速な有料枠「Ultrafast」を投入。Codexのクラウド実行やチーム向け協働空間「ChatGPT Space」も公開した。..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -97,26 +116,26 @@
       ]
     },
     {
-      "id": "itmedia_ai_4",
-      "source_name": "ITmedia AI+",
-      "category": "国内ニュース",
-      "title": "コードが「新しいアセンブリ言語」になるAI時代、日本の「職人気質」がソフトウェア開発の足かせになる理由",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/30/news019.html",
-      "raw_summary": "元メルカリCTOが日本企業のグローバル開発とAI時代の組織づくりについて、当事者としての経験を語る連載。第2回は、「暗黙知」を無意識のうちに生み出している日本の「ハイコンテクスト」な文化について。",
-      "published_at": "2026-09-30T05:00:00+09:00",
-      "lang": "ja",
-      "japanese_title": "コードが「新しいアセンブリ言語」になるAI時代、日本の「職人気質」がソフトウェア開発の足かせになる理由",
+      "id": "techcrunch_ai_15",
+      "source_name": "TechCrunch AI",
+      "category": "海外・トレンド",
+      "title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
+      "url": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/",
+      "raw_summary": "For the sake of national security, it's a relief to learn that America.gov is not hallucinating to the point that it's penning lengthy poetry.",
+      "published_at": "2026-09-29T23:30:55+00:00",
+      "lang": "en",
+      "japanese_title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
       "bullets": [
-        "📌 元メルカリCTOが日本企業のグローバル開発とAI時代の組織づくりについて、当事者としての経験を語る連載。第2回は、「暗黙知」を無意識のうちに生み出している日本の「ハイコンテクスト」な文化について。..."
+        "📌 For the sake of national security, it's a relief to learn that America.gov is not hallucinating to the point that it's penning lengthy poetry...."
       ],
       "impact_score": 2,
       "genre": "先進技術",
       "tags": [
-        "国内ニュース"
+        "海外・トレンド"
       ]
     },
     {
-      "id": "techcrunch_ai_15",
+      "id": "techcrunch_ai_16",
       "source_name": "TechCrunch AI",
       "category": "海外・トレンド",
       "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
@@ -154,7 +173,7 @@
       ]
     },
     {
-      "id": "techcrunch_ai_16",
+      "id": "techcrunch_ai_17",
       "source_name": "TechCrunch AI",
       "category": "海外・トレンド",
       "title": "OpenAI’s latest features take direct aim at the app store model",
@@ -173,15 +192,15 @@
       ]
     },
     {
-      "id": "techcrunch_ai_17",
+      "id": "techcrunch_ai_18",
       "source_name": "TechCrunch AI",
       "category": "海外・トレンド",
-      "title": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
-      "url": "https://techcrunch.com/2026/09/29/openai-repotedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+      "title": "OpenAI reportedly in talks to raise $30B round at $1.4T valuation",
+      "url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
       "raw_summary": "The new round is anticipated to be the company's last before its delayed 2027 public debut.",
       "published_at": "2026-09-29T19:52:37+00:00",
       "lang": "en",
-      "japanese_title": "OpenAI repotedly in talks to raise $30B round at $1.4T valuation",
+      "japanese_title": "OpenAI reportedly in talks to raise $30B round at $1.4T valuation",
       "bullets": [
         "📌 The new round is anticipated to be the company's last before its delayed 2027 public debut...."
       ],
@@ -249,7 +268,7 @@
       ]
     },
     {
-      "id": "techcrunch_ai_18",
+      "id": "techcrunch_ai_19",
       "source_name": "TechCrunch AI",
       "category": "海外・トレンド",
       "title": "Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents",
@@ -260,25 +279,6 @@
       "japanese_title": "Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents",
       "bullets": [
         "📌 OpenAI isn't a public supporter of Nvidia's Open Agent Safety Platform, but it is privately working with Nvidia, TechCrunch has learned...."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・トレンド"
-      ]
-    },
-    {
-      "id": "techcrunch_ai_19",
-      "source_name": "TechCrunch AI",
-      "category": "海外・トレンド",
-      "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
-      "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
-      "raw_summary": "OpenAI's newly announced suite of office features puts it into more direct competition with more traditional software companies.",
-      "published_at": "2026-09-29T17:45:51+00:00",
-      "lang": "en",
-      "japanese_title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
-      "bullets": [
-        "📌 OpenAI's newly announced suite of office features puts it into more direct competition with more traditional software companies...."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -330,12 +330,12 @@
       "category": "海外・公式",
       "title": "Introducing dots",
       "url": "https://openai.com/index/introducing-dots",
-      "raw_summary": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+      "raw_summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
       "published_at": "2026-09-29T00:00:00+00:00",
       "lang": "en",
       "japanese_title": "Introducing dots",
       "bullets": [
-        "📌 Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control whi..."
+        "📌 Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control whil..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
