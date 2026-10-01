@@ -1,94 +1,18 @@
 {
-  "updated_at": "2026-09-30T10:11:25.590423+09:00",
+  "updated_at": "2026-10-01T10:11:00.754104+09:00",
   "articles": [
     {
       "id": "itmedia_ai_0",
       "source_name": "ITmedia AI+",
       "category": "国内ニュース",
-      "title": "AI企業トップらと昼食会のトランプ米大統領、政府内で「AI」を「SI」と呼び替える大統領令に署名",
-      "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001871/",
-      "raw_summary": "トランプ大統領はIT首脳らと昼食会を開き、行政機関で「人工知能（AI）」に代わり「超知能（SI）」の呼称使用を命じる大統領令に署名した。主要各社は自主的安全合意「White House Accord on Super Intelligence」に署名。米連邦政府は行政窓口サイト「America.gov」の創設も発表した。",
-      "published_at": "2026-09-30T08:56:35+09:00",
+      "title": "Autodesk、FusionなどのAI機能を発表 設計作業の自動化や設計資産の再利用を支援",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/01/news015.html",
+      "raw_summary": "Autodeskは「Autodesk University 2026（AU 2026）」において、「Fusion」「Inventor」「Vault」およびPLMに関する新たなAI機能や取り組みを発表した。部品の編集や組み立て、製造工程の自動化に加え、製品情報の連携や既存の設計資産の再利用を支援する。",
+      "published_at": "2026-10-01T09:00:00+09:00",
       "lang": "ja",
-      "japanese_title": "AI企業トップらと昼食会のトランプ米大統領、政府内で「AI」を「SI」と呼び替える大統領令に署名",
+      "japanese_title": "Autodesk、FusionなどのAI機能を発表 設計作業の自動化や設計資産の再利用を支援",
       "bullets": [
-        "📌 トランプ大統領はIT首脳らと昼食会を開き、行政機関で「人工知能（AI）」に代わり「超知能（SI）」の呼称使用を命じる大統領令に署名した。主要各社は自主的安全合意「White House Accord on Super Intelligence」に署名。米連邦政府は行政窓口サイト「America.go..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
-    {
-      "id": "itmedia_ai_1",
-      "source_name": "ITmedia AI+",
-      "category": "国内ニュース",
-      "title": "AIは魔法の杖ではなく“子ども”だ 「ずる賢く」育つのを阻止するための3つのポイント",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2609/30/news017.html",
-      "raw_summary": "AIも子どもと同じで、適切な学習を繰り返して初めて育つ――。筆者が学生時代に携わった脳科学の実験を手掛かりに、AIを育てる条件と、IT負債の分析をAIに任せることの危うさ、AI向けデータセンター投資の落とし穴を論じる。",
-      "published_at": "2026-09-30T08:00:00+09:00",
-      "lang": "ja",
-      "japanese_title": "AIは魔法の杖ではなく“子ども”だ 「ずる賢く」育つのを阻止するための3つのポイント",
-      "bullets": [
-        "📌 AIも子どもと同じで、適切な学習を繰り返して初めて育つ――。筆者が学生時代に携わった脳科学の実験を手掛かりに、AIを育てる条件と、IT負債の分析をAIに任せることの危うさ、AI向けデータセンター投資の落とし穴を論じる。..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
-    {
-      "id": "itmedia_ai_2",
-      "source_name": "ITmedia AI+",
-      "category": "国内ニュース",
-      "title": "OpenAI、豪政府サイトへの不正アクセスで謝罪 最先端AI学習の安全指針も公開",
-      "url": "https://www.itmedia.co.jp/news/article/2609/30/2000001869/",
-      "raw_summary": "OpenAIは、学習中のAIモデルが豪政府サイトへ不正アクセスした問題で、通知の遅れを認め謝罪した。ネットワーク制限の強化や最上位モデルの学習停止に加え、航空や原子力分野にならい学習前に安全性を体系的に検証する仕組みを導入する。豪議会の特別委員会にも出席し、一連の経緯を説明する。",
-      "published_at": "2026-09-30T07:41:40+09:00",
-      "lang": "ja",
-      "japanese_title": "OpenAI、豪政府サイトへの不正アクセスで謝罪 最先端AI学習の安全指針も公開",
-      "bullets": [
-        "📌 OpenAIは、学習中のAIモデルが豪政府サイトへ不正アクセスした問題で、通知の遅れを認め謝罪した。ネットワーク制限の強化や最上位モデルの学習停止に加え、航空や原子力分野にならい学習前に安全性を体系的に検証する仕組みを導入する。豪議会の特別委員会にも出席し、一連の経緯を説明する。..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
-    {
-      "id": "itmedia_ai_3",
-      "source_name": "ITmedia AI+",
-      "category": "国内ニュース",
-      "title": "マネーフォワード、2800人の情報をNotionに集約 「AIに聞けば分かる」環境へ",
-      "url": "https://kn.itmedia.co.jp/kn/article/2609/30/2000001856/",
-      "raw_summary": "社内の情報が複数の場所に分散していれば、従業員もAIも必要な情報にたどり着きにくい。マネーフォワードは約2800人規模のグループでNotionを活用し、社内情報を集約した。「AIに聞けば分かる」環境づくりをどう進めているのか。",
-      "published_at": "2026-09-30T07:00:00+09:00",
-      "lang": "ja",
-      "japanese_title": "マネーフォワード、2800人の情報をNotionに集約 「AIに聞けば分かる」環境へ",
-      "bullets": [
-        "📌 社内の情報が複数の場所に分散していれば、従業員もAIも必要な情報にたどり着きにくい。マネーフォワードは約2800人規模のグループでNotionを活用し、社内情報を集約した。「AIに聞けば分かる」環境づくりをどう進めているのか。..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
-    {
-      "id": "itmedia_ai_4",
-      "source_name": "ITmedia AI+",
-      "category": "国内ニュース",
-      "title": "AIがもたらした「半導体」の進化 光電融合、HBM、新トランジスタ――果てなき性能向上、どうかなえる？",
-      "url": "https://www.itmedia.co.jp/business/articles/2609/30/news021.html",
-      "raw_summary": "生成AIの登場によって、半導体の進化が加速している。「ムーアの法則」に限界が見える中、半導体メーカーは新たな技術を次々に生み出している。果てなき性能向上、どうかなえるのか。",
-      "published_at": "2026-09-30T07:00:00+09:00",
-      "lang": "ja",
-      "japanese_title": "AIがもたらした「半導体」の進化 光電融合、HBM、新トランジスタ――果てなき性能向上、どうかなえる？",
-      "bullets": [
-        "📌 生成AIの登場によって、半導体の進化が加速している。「ムーアの法則」に限界が見える中、半導体メーカーは新たな技術を次々に生み出している。果てなき性能向上、どうかなえるのか。..."
+        "📌 Autodeskは「Autodesk University 2026（AU 2026）」において、「Fusion」「Inventor」「Vault」およびPLMに関する新たなAI機能や取り組みを発表した。部品の編集や組み立て、製造工程の自動化に加え、製品情報の連携や既存の設計資産の再利用を支援する。..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -100,14 +24,14 @@
       "id": "gigazine_ai_5",
       "source_name": "GIGAZINE (AI)",
       "category": "国内ニュース",
-      "title": "「証明」によりAIの誤りを阻止しGPU上で動作する高速プログラミング言語「Bend」、C言語並みの処理速度・CUDAによる並列処理・Leanによる形式的証明・Python風の構文",
-      "url": "https://gigazine.net/news/20260930-bend-lang/",
-      "raw_summary": "「Bend」はAIが犯すかもしれない誤りを「証明」によってブロックすることを目指す新たなプログラミング言語です。 続きを読む...",
-      "published_at": "2026-09-30T06:00:00+09:00",
+      "title": "約3000万円もかかる無響室を小型マイクとBluetoothスピーカーで代替",
+      "url": "https://gigazine.net/news/20261001-bluetooth-speaker-sound-chamber/",
+      "raw_summary": "PCハードウェアや周辺機器の検証を行うLTT Labsが、通常は高価な無響室と多数のスピーカーを使って測定する人間の耳の音響特性を、Bluetoothスピーカーと小型マイク、ニューラルネットワークを組み合わせて低コストで推定する手法を開発しました。1人につき10方向から音を測定し、残りの方向をAIで推定することで、従来より短時間かつ簡単に個人ごとの耳の特性を調べられる可能性を示しています。 続きを読む...",
+      "published_at": "2026-10-01T08:50:00+09:00",
       "lang": "ja",
-      "japanese_title": "「証明」によりAIの誤りを阻止しGPU上で動作する高速プログラミング言語「Bend」、C言語並みの処理速度・CUDAによる並列処理・Leanによる形式的証明・Python風の構文",
+      "japanese_title": "約3000万円もかかる無響室を小型マイクとBluetoothスピーカーで代替",
       "bullets": [
-        "📌 「Bend」はAIが犯すかもしれない誤りを「証明」によってブロックすることを目指す新たなプログラミング言語です。 続きを読む......"
+        "📌 PCハードウェアや周辺機器の検証を行うLTT Labsが、通常は高価な無響室と多数のスピーカーを使って測定する人間の耳の音響特性を、Bluetoothスピーカーと小型マイク、ニューラルネットワークを組み合わせて低コストで推定する手法を開発しました。1人につき10方向から音を測定し、残りの方向をAIで..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -116,17 +40,131 @@
       ]
     },
     {
+      "id": "itmedia_ai_1",
+      "source_name": "ITmedia AI+",
+      "category": "国内ニュース",
+      "title": "AI主権はなぜ「切実な経営課題」になったのか モデル“禁輸”問題が示した「選択肢を持つこと」の重要性",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/01/2000001909/",
+      "raw_summary": "AIの活用が進むほど、企業は外部のサービスやインフラへの依存を深める。データやモデルへのコントロールを保ち、自らの意思で選択できる状態を守る「AI主権」はなぜ経営課題になったのか、4つの観点から解説する。",
+      "published_at": "2026-10-01T08:00:00+09:00",
+      "lang": "ja",
+      "japanese_title": "AI主権はなぜ「切実な経営課題」になったのか モデル“禁輸”問題が示した「選択肢を持つこと」の重要性",
+      "bullets": [
+        "📌 AIの活用が進むほど、企業は外部のサービスやインフラへの依存を深める。データやモデルへのコントロールを保ち、自らの意思で選択できる状態を守る「AI主権」はなぜ経営課題になったのか、4つの観点から解説する。..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "itmedia_ai_2",
+      "source_name": "ITmedia AI+",
+      "category": "国内ニュース",
+      "title": "日立とファナックがフィジカルAI協業 日立エッジAI×ファナックロボ有効性も検証",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/01/news031.html",
+      "raw_summary": "日立製作所とファナックはフィジカルAI（人工知能）実装の共同事業化に向けた戦略的パートナーシップを締結した。日立のAI技術とファナックの産業用ロボットを組み合わせたフィジカルAIの共同実証と共同展開を推進する。共同実証で得られたフィジカルAIの実装／運用ノウハウを生かして、2027年度からグローバルなインストールベースを活用して展開する。",
+      "published_at": "2026-10-01T07:30:00+09:00",
+      "lang": "ja",
+      "japanese_title": "日立とファナックがフィジカルAI協業 日立エッジAI×ファナックロボ有効性も検証",
+      "bullets": [
+        "📌 日立製作所とファナックはフィジカルAI（人工知能）実装の共同事業化に向けた戦略的パートナーシップを締結した。日立のAI技術とファナックの産業用ロボットを組み合わせたフィジカルAIの共同実証と共同展開を推進する。共同実証で得られたフィジカルAIの実装／運用ノウハウを生かして、2027年度からグローバル..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "itmedia_ai_3",
+      "source_name": "ITmedia AI+",
+      "category": "国内ニュース",
+      "title": "Google、「Gemini 4 Pro」ではなく「Gemini 4 Agron」発表 まずはサイバー防御組織に限定提供、出力上限は100万トークンに",
+      "url": "https://www.itmedia.co.jp/news/article/2610/01/2000001912/",
+      "raw_summary": "Googleは、次世代フロンティアモデル「Gemini 4 Argon」を発表した。最大出力100万トークンに対応し、長時間に及ぶ業務処理や自律的なサイバー脆弱性修正に強みを持つ。安全対策を強化した上で、まずは信頼できるサイバー防御組織に先行提供し、有料APIなどで順次拡大する。",
+      "published_at": "2026-10-01T07:16:25+09:00",
+      "lang": "ja",
+      "japanese_title": "Google、「Gemini 4 Pro」ではなく「Gemini 4 Agron」発表 まずはサイバー防御組織に限定提供、出力上限は100万トークンに",
+      "bullets": [
+        "📌 Googleは、次世代フロンティアモデル「Gemini 4 Argon」を発表した。最大出力100万トークンに対応し、長時間に及ぶ業務処理や自律的なサイバー脆弱性修正に強みを持つ。安全対策を強化した上で、まずは信頼できるサイバー防御組織に先行提供し、有料APIなどで順次拡大する。..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "itmedia_ai_4",
+      "source_name": "ITmedia AI+",
+      "category": "国内ニュース",
+      "title": "「デジタルスレッドとAIで動かす」 富士ソフトがスマート工場で10％成長狙う",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/01/news034.html",
+      "raw_summary": "富士ソフトは経営体制「富士ソフト Gen.2」に基づく、製造業向けスマート工場事業戦略を発表した。既存設備を生かし、データをデジタルスレッドで統合しフィジカルAIで現場を動かす4つのオファリングを展開する。同事業で10％以上の成長を目指す。",
+      "published_at": "2026-10-01T07:15:00+09:00",
+      "lang": "ja",
+      "japanese_title": "「デジタルスレッドとAIで動かす」 富士ソフトがスマート工場で10％成長狙う",
+      "bullets": [
+        "📌 富士ソフトは経営体制「富士ソフト Gen.2」に基づく、製造業向けスマート工場事業戦略を発表した。既存設備を生かし、データをデジタルスレッドで統合しフィジカルAIで現場を動かす4つのオファリングを展開する。同事業で10％以上の成長を目指す。..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "gigazine_ai_6",
+      "source_name": "GIGAZINE (AI)",
+      "category": "国内ニュース",
+      "title": "ビル・ゲイツが「AI規制はサイバー攻撃やバイオテロを防ぐために必要」「AIは人間の仕事を奪う」とインタビューで語る",
+      "url": "https://gigazine.net/news/20261001-bill-gates-warning-ai-ezra-klein/",
+      "raw_summary": "Microsoftの創業者であり億万長者のビル・ゲイツ氏は近年、さまざまな場面でAIに対する懸念を表明しています。日刊紙のニューヨーク・タイムズに掲載されたジャーナリストのエズラ・クライン氏とのインタビューでも、ゲイツ氏はAIのさまざまなリスクや必要な対策、そしてAIが人類にもたらす利益について語っています。 続きを読む...",
+      "published_at": "2026-10-01T07:00:00+09:00",
+      "lang": "ja",
+      "japanese_title": "ビル・ゲイツが「AI規制はサイバー攻撃やバイオテロを防ぐために必要」「AIは人間の仕事を奪う」とインタビューで語る",
+      "bullets": [
+        "📌 Microsoftの創業者であり億万長者のビル・ゲイツ氏は近年、さまざまな場面でAIに対する懸念を表明しています。日刊紙のニューヨーク・タイムズに掲載されたジャーナリストのエズラ・クライン氏とのインタビューでも、ゲイツ氏はAIのさまざまなリスクや必要な対策、そしてAIが人類にもたらす利益について語っ..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "techcrunch_ai_14",
+      "source_name": "TechCrunch AI",
+      "category": "海外・トレンド",
+      "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+      "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+      "raw_summary": "Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
+      "published_at": "2026-09-30T23:43:07+00:00",
+      "lang": "en",
+      "japanese_title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+      "bullets": [
+        "📌 Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work...."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・トレンド"
+      ]
+    },
+    {
       "id": "techcrunch_ai_15",
       "source_name": "TechCrunch AI",
       "category": "海外・トレンド",
-      "title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
-      "url": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/",
-      "raw_summary": "For the sake of national security, it's a relief to learn that America.gov is not hallucinating to the point that it's penning lengthy poetry.",
-      "published_at": "2026-09-29T23:30:55+00:00",
+      "title": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
+      "url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+      "raw_summary": "Flow Engineering, which is bringing AI agents to hardware design, also landed Roelof Botha as an angel investor and board member.",
+      "published_at": "2026-09-30T21:07:40+00:00",
       "lang": "en",
-      "japanese_title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
+      "japanese_title": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
       "bullets": [
-        "📌 For the sake of national security, it's a relief to learn that America.gov is not hallucinating to the point that it's penning lengthy poetry...."
+        "📌 Flow Engineering, which is bringing AI agents to hardware design, also landed Roelof Botha as an angel investor and board member...."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -138,71 +176,14 @@
       "id": "techcrunch_ai_16",
       "source_name": "TechCrunch AI",
       "category": "海外・トレンド",
-      "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
-      "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
-      "raw_summary": "Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the Grok chatbot download page.",
-      "published_at": "2026-09-29T22:20:59+00:00",
+      "title": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents",
+      "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents/",
+      "raw_summary": "OpenAI's \"Decisions API\" is a Jev clone that confirms the importance of fast, cheap intelligence.",
+      "published_at": "2026-09-30T19:00:57+00:00",
       "lang": "en",
-      "japanese_title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
+      "japanese_title": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents",
       "bullets": [
-        "📌 Before OpenAI launched its new AI agent, Dots, on Tuesday, Elon Musk's xAI had already acquired the domain name \"dot.com,\" which now redirects to the ..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・トレンド"
-      ]
-    },
-    {
-      "id": "gigazine_ai_6",
-      "source_name": "GIGAZINE (AI)",
-      "category": "国内ニュース",
-      "title": "無料でJev互換の小型高速意思決定モデル「Jeff」、ローカル環境で約22～28ミリ秒と爆速",
-      "url": "https://gigazine.net/news/20260929-jeff/",
-      "raw_summary": "ChatGPTの共同開発者であるがディオゴ・アルメイダ氏がCEOを務めるTypeSafe AIが開発した、意思決定モデルの「Jev」と同じように、リクエスト形式でコードに組み込むことができる小型の意思決定モデルが「Jeff」です。RTX PRO 6000の場合は1回の意思決定当たり約22ミリ秒、 AppleのM4 Maxの場合は1回の意思決定当たり約28ミリ秒で動作可能です。 続きを読む...",
-      "published_at": "2026-09-29T22:00:00+09:00",
-      "lang": "ja",
-      "japanese_title": "無料でJev互換の小型高速意思決定モデル「Jeff」、ローカル環境で約22～28ミリ秒と爆速",
-      "bullets": [
-        "📌 ChatGPTの共同開発者であるがディオゴ・アルメイダ氏がCEOを務めるTypeSafe AIが開発した、意思決定モデルの「Jev」と同じように、リクエスト形式でコードに組み込むことができる小型の意思決定モデルが「Jeff」です。RTX PRO 6000の場合は1回の意思決定当たり約22ミリ秒、 A..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
-    {
-      "id": "techcrunch_ai_17",
-      "source_name": "TechCrunch AI",
-      "category": "海外・トレンド",
-      "title": "OpenAI’s latest features take direct aim at the app store model",
-      "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
-      "raw_summary": "OpenAI is building out the pieces of an alternative to the traditional app store model, turning ChatGPT into a place where software can be discovered and used by people and AI agents alike.",
-      "published_at": "2026-09-29T20:15:47+00:00",
-      "lang": "en",
-      "japanese_title": "OpenAI’s latest features take direct aim at the app store model",
-      "bullets": [
-        "📌 OpenAI is building out the pieces of an alternative to the traditional app store model, turning ChatGPT into a place where software can be discovered ..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・トレンド"
-      ]
-    },
-    {
-      "id": "techcrunch_ai_18",
-      "source_name": "TechCrunch AI",
-      "category": "海外・トレンド",
-      "title": "OpenAI reportedly in talks to raise $30B round at $1.4T valuation",
-      "url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
-      "raw_summary": "The new round is anticipated to be the company's last before its delayed 2027 public debut.",
-      "published_at": "2026-09-29T19:52:37+00:00",
-      "lang": "en",
-      "japanese_title": "OpenAI reportedly in talks to raise $30B round at $1.4T valuation",
-      "bullets": [
-        "📌 The new round is anticipated to be the company's last before its delayed 2027 public debut...."
+        "📌 OpenAI's \"Decisions API\" is a Jev clone that confirms the importance of fast, cheap intelligence...."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -214,14 +195,14 @@
       "id": "gigazine_ai_7",
       "source_name": "GIGAZINE (AI)",
       "category": "国内ニュース",
-      "title": "AIエージェント「Manus 2.0」リリース、さらにパーソナルAIエージェント向けアプリ「Cue」やプロフェッショナルなAIワークスペースを実現するデスクトップアプリ「Manus Studio」も",
-      "url": "https://gigazine.net/news/20260929-manus-2-0/",
-      "raw_summary": "アジア圏を中心にサービスを展開し、一度Metaとの買収合意に至った後に再び独立したという異色の経歴を持つAI起業のManusが、AIエージェントの「Manus 2.0」を発表しました。独立後初の大型アップデートということで、「ただのバージョンアップではない」とアピールされています。 続きを読む...",
-      "published_at": "2026-09-29T19:11:00+09:00",
+      "title": "ローマ教皇レオ14世がAIの危険性に関する主張を否定したトランプ大統領やNVIDIAのジェンスン・フアンを非難",
+      "url": "https://gigazine.net/news/20260930-pope-leo-nvidia-trump-ai-threat/",
+      "raw_summary": "2026年9月、Anthropicのダリオ・アモデイCEOがAIの急速な進歩によるリスクが高まっているとして、AIが壊滅的な被害をもたらす危険性があると警告しました。これに対しアメリカのドナルド・トランプ大統領は「デマだ」と否定し、NVIDIAのジェンスン・フアンCEOもAI研究所のリーダーらは誠実さに欠けると非難しています。そんな中でローマ教皇のレオ14世が、AIへの懸念は真剣に受け止めるべきであり、フェイクニュースではないと主張しました。 続きを読む...",
+      "published_at": "2026-09-30T19:00:00+09:00",
       "lang": "ja",
-      "japanese_title": "AIエージェント「Manus 2.0」リリース、さらにパーソナルAIエージェント向けアプリ「Cue」やプロフェッショナルなAIワークスペースを実現するデスクトップアプリ「Manus Studio」も",
+      "japanese_title": "ローマ教皇レオ14世がAIの危険性に関する主張を否定したトランプ大統領やNVIDIAのジェンスン・フアンを非難",
       "bullets": [
-        "📌 アジア圏を中心にサービスを展開し、一度Metaとの買収合意に至った後に再び独立したという異色の経歴を持つAI起業のManusが、AIエージェントの「Manus 2.0」を発表しました。独立後初の大型アップデートということで、「ただのバージョンアップではない」とアピールされています。 続きを読む......"
+        "📌 2026年9月、Anthropicのダリオ・アモデイCEOがAIの急速な進歩によるリスクが高まっているとして、AIが壊滅的な被害をもたらす危険性があると警告しました。これに対しアメリカのドナルド・トランプ大統領は「デマだ」と否定し、NVIDIAのジェンスン・フアンCEOもAI研究所のリーダーらは誠実..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -230,55 +211,17 @@
       ]
     },
     {
-      "id": "gigazine_ai_8",
-      "source_name": "GIGAZINE (AI)",
-      "category": "国内ニュース",
-      "title": "「GPT-6 Astraは旧世代モデルよりサイバー攻撃を実行しやすい傾向にある」というイギリス政府機関の分析結果が公開される",
-      "url": "https://gigazine.net/news/20260929-gpt-6-astra-aisi-report/",
-      "raw_summary": "OpenAIはAIの開発中に「国連の統計サイト」「オーストラリアの公的医療サービス」「アメリカの教育省・商務省・証券取引委員会」といった重要サービスに対する攻撃を実行してしまったことが明らかになっています。新たに、イギリスの政府機関であるAI Security Institute(AISI)が「GPT-6 Astraで攻撃シミュレーションを実行した結果、前世代モデルより拒否率が低下した」という分析結果を公開しました。 続きを読む...",
-      "published_at": "2026-09-29T19:02:00+09:00",
-      "lang": "ja",
-      "japanese_title": "「GPT-6 Astraは旧世代モデルよりサイバー攻撃を実行しやすい傾向にある」というイギリス政府機関の分析結果が公開される",
-      "bullets": [
-        "📌 OpenAIはAIの開発中に「国連の統計サイト」「オーストラリアの公的医療サービス」「アメリカの教育省・商務省・証券取引委員会」といった重要サービスに対する攻撃を実行してしまったことが明らかになっています。新たに、イギリスの政府機関であるAI Security Institute(AISI)が「GP..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
-    {
-      "id": "gigazine_ai_9",
-      "source_name": "GIGAZINE (AI)",
-      "category": "国内ニュース",
-      "title": "MetaのAI「Muse」にFacebook Marketplaceの対応を任せたら勝手に値下げ＆住所公開、購入者が自宅に来る事態に",
-      "url": "https://gigazine.net/news/20260929-meta-muse-give-home-address/",
-      "raw_summary": "Metaが2026年9月に公開したパーソナルAIエージェント「Muse」にFacebook Marketplaceでの販売対応を任せたところユーザーの承認を得ずに値下げに応じた上、自宅の住所まで購入希望者に伝え、実際に購入希望者が自宅を訪れる事態が発生しました。 続きを読む...",
-      "published_at": "2026-09-29T18:40:00+09:00",
-      "lang": "ja",
-      "japanese_title": "MetaのAI「Muse」にFacebook Marketplaceの対応を任せたら勝手に値下げ＆住所公開、購入者が自宅に来る事態に",
-      "bullets": [
-        "📌 Metaが2026年9月に公開したパーソナルAIエージェント「Muse」にFacebook Marketplaceでの販売対応を任せたところユーザーの承認を得ずに値下げに応じた上、自宅の住所まで購入希望者に伝え、実際に購入希望者が自宅を訪れる事態が発生しました。 続きを読む......"
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
-    {
-      "id": "techcrunch_ai_19",
+      "id": "techcrunch_ai_17",
       "source_name": "TechCrunch AI",
       "category": "海外・トレンド",
-      "title": "Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents",
-      "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
-      "raw_summary": "OpenAI isn't a public supporter of Nvidia's Open Agent Safety Platform, but it is privately working with Nvidia, TechCrunch has learned.",
-      "published_at": "2026-09-29T18:35:00+00:00",
+      "title": "AI voice startup ElevenLabs doubles valuation to $22B",
+      "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
+      "raw_summary": "The $300 million employee tender was co-led by Wellington and T. Rowe Price.",
+      "published_at": "2026-09-30T18:23:57+00:00",
       "lang": "en",
-      "japanese_title": "Here’s why OpenAI is absent from Nvidia’s industry-wide effort to end rogue AI agents",
+      "japanese_title": "AI voice startup ElevenLabs doubles valuation to $22B",
       "bullets": [
-        "📌 OpenAI isn't a public supporter of Nvidia's Open Agent Safety Platform, but it is privately working with Nvidia, TechCrunch has learned...."
+        "📌 The $300 million employee tender was co-led by Wellington and T. Rowe Price...."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -287,7 +230,102 @@
       ]
     },
     {
+      "id": "gigazine_ai_8",
+      "source_name": "GIGAZINE (AI)",
+      "category": "国内ニュース",
+      "title": "ベンチマークでJev超えな意思決定モデル「d1」が登場",
+      "url": "https://gigazine.net/news/20260930-d1-decision-model-liquid-ai/",
+      "raw_summary": "AI開発企業のLiquid AIが意思決定モデル「d1」をリリースしました。2026年9月に登場して大きな話題となっている「Jev」と同様の機能を備えており、性能テストでJevを上回ったとのことです。 続きを読む...",
+      "published_at": "2026-09-30T17:52:00+09:00",
+      "lang": "ja",
+      "japanese_title": "ベンチマークでJev超えな意思決定モデル「d1」が登場",
+      "bullets": [
+        "📌 AI開発企業のLiquid AIが意思決定モデル「d1」をリリースしました。2026年9月に登場して大きな話題となっている「Jev」と同様の機能を備えており、性能テストでJevを上回ったとのことです。 続きを読む......"
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "techcrunch_ai_18",
+      "source_name": "TechCrunch AI",
+      "category": "海外・トレンド",
+      "title": "Reddit is killing RSS feeds and ending public API access because of AI bots",
+      "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/",
+      "raw_summary": "Reddit is ending support for RSS feeds, as the company continues tightening access to its trove of user-generated content.",
+      "published_at": "2026-09-30T17:45:00+00:00",
+      "lang": "en",
+      "japanese_title": "Reddit is killing RSS feeds and ending public API access because of AI bots",
+      "bullets": [
+        "📌 Reddit is ending support for RSS feeds, as the company continues tightening access to its trove of user-generated content...."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・トレンド"
+      ]
+    },
+    {
+      "id": "gigazine_ai_9",
+      "source_name": "GIGAZINE (AI)",
+      "category": "国内ニュース",
+      "title": "ChatGPTなどの汎用AIに本物の車を運転させたら「実車では？」と気付いて運転を拒否、最終的に走らせた方法とは",
+      "url": "https://gigazine.net/news/20260930-chatgpt-drive-car/",
+      "raw_summary": "ChatGPTなどに使われる汎用(はんよう)AIモデルに本物の自動車のハンドル・アクセル・ブレーキを任せてみる実験を、サンフランシスコ・ベイエリアの技術者3人によるプロジェクト「DrivingBench」が実施しました。 続きを読む...",
+      "published_at": "2026-09-30T17:10:00+09:00",
+      "lang": "ja",
+      "japanese_title": "ChatGPTなどの汎用AIに本物の車を運転させたら「実車では？」と気付いて運転を拒否、最終的に走らせた方法とは",
+      "bullets": [
+        "📌 ChatGPTなどに使われる汎用(はんよう)AIモデルに本物の自動車のハンドル・アクセル・ブレーキを任せてみる実験を、サンフランシスコ・ベイエリアの技術者3人によるプロジェクト「DrivingBench」が実施しました。 続きを読む......"
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
       "id": "openai_blog_10",
+      "source_name": "OpenAI Blog",
+      "category": "海外・公式",
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "raw_summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+      "published_at": "2026-09-30T10:30:00+00:00",
+      "lang": "en",
+      "japanese_title": "Disrupting a coordinated model-distillation campaign",
+      "bullets": [
+        "📌 Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation...."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・公式"
+      ]
+    },
+    {
+      "id": "openai_blog_11",
+      "source_name": "OpenAI Blog",
+      "category": "海外・公式",
+      "title": "Helping small businesses put AI to work",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "raw_summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+      "published_at": "2026-09-30T10:00:00+00:00",
+      "lang": "en",
+      "japanese_title": "Helping small businesses put AI to work",
+      "bullets": [
+        "📌 OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small te..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・公式"
+      ]
+    },
+    {
+      "id": "openai_blog_12",
       "source_name": "OpenAI Blog",
       "category": "海外・公式",
       "title": "Introducing GPT-6.1 Sol",
@@ -306,7 +344,7 @@
       ]
     },
     {
-      "id": "openai_blog_11",
+      "id": "openai_blog_13",
       "source_name": "OpenAI Blog",
       "category": "海外・公式",
       "title": "DevDay 2026 Recap",
@@ -317,82 +355,6 @@
       "japanese_title": "DevDay 2026 Recap",
       "bullets": [
         "📌 Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders...."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・公式"
-      ]
-    },
-    {
-      "id": "openai_blog_12",
-      "source_name": "OpenAI Blog",
-      "category": "海外・公式",
-      "title": "Introducing dots",
-      "url": "https://openai.com/index/introducing-dots",
-      "raw_summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-      "published_at": "2026-09-29T00:00:00+00:00",
-      "lang": "en",
-      "japanese_title": "Introducing dots",
-      "bullets": [
-        "📌 Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control whil..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・公式"
-      ]
-    },
-    {
-      "id": "openai_blog_13",
-      "source_name": "OpenAI Blog",
-      "category": "海外・公式",
-      "title": "Towards safety cases for frontier AI training",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "raw_summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-      "published_at": "2026-09-28T19:00:00+00:00",
-      "lang": "en",
-      "japanese_title": "Towards safety cases for frontier AI training",
-      "bullets": [
-        "📌 Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incide..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・公式"
-      ]
-    },
-    {
-      "id": "openai_blog_14",
-      "source_name": "OpenAI Blog",
-      "category": "海外・公式",
-      "title": "How we will do better for Australia",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "raw_summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-      "published_at": "2026-09-28T19:00:00+00:00",
-      "lang": "en",
-      "japanese_title": "How we will do better for Australia",
-      "bullets": [
-        "📌 OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber ..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・公式"
-      ]
-    },
-    {
-      "id": "google_ai_20",
-      "source_name": "Google AI Blog",
-      "category": "海外・公式",
-      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-      "raw_summary": "",
-      "published_at": "2026-09-28T19:00:00+00:00",
-      "lang": "en",
-      "japanese_title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "bullets": [
-        "📌 ..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
