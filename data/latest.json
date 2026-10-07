@@ -1,37 +1,18 @@
 {
-  "updated_at": "2026-10-06T11:09:30.667806+09:00",
+  "updated_at": "2026-10-07T10:22:31.205619+09:00",
   "articles": [
-    {
-      "id": "gigazine_ai_5",
-      "source_name": "GIGAZINE (AI)",
-      "category": "国内ニュース",
-      "title": "OpenAIがChatGPTのテキストに透かしを入れる取り組みを開始",
-      "url": "https://gigazine.net/news/20261006-openai-start-watermarking-chatgpt-text-eu/",
-      "raw_summary": "大手AI企業のOpenAIが、EUのAI法を順守するためにChatGPTやCodexによって生成されたテキストに、目に見えない透かしを追加すると発表しました。 続きを読む...",
-      "published_at": "2026-10-06T10:54:00+09:00",
-      "lang": "ja",
-      "japanese_title": "OpenAIがChatGPTのテキストに透かしを入れる取り組みを開始",
-      "bullets": [
-        "📌 大手AI企業のOpenAIが、EUのAI法を順守するためにChatGPTやCodexによって生成されたテキストに、目に見えない透かしを追加すると発表しました。 続きを読む......"
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
     {
       "id": "itmedia_ai_0",
       "source_name": "ITmedia AI+",
       "category": "国内ニュース",
-      "title": "「クレームこそ最大の商機」 合成紙大手ユポが半世紀貫く“コト売り”と、AIによる暗黙知継承",
-      "url": "https://www.itmedia.co.jp/business/articles/2610/06/news034.html",
-      "raw_summary": "大手ITが競う「コト売り」を設立以来半世紀にわたって現場で体現してきたのが合成紙大手ユポだ。光学シートから医療用トリアージタグまで用途を広げてきた同社の強みは、「クレームこそ最大の商機」と言い切る課題解決力にある。営業・開発・技術・共創推進の4部門が連携する組織改革と、ベテランが培った膨大な「トラブル対応の暗黙知」をAIで継承するDXの裏側に迫る。",
-      "published_at": "2026-10-06T10:15:00+09:00",
+      "title": "OpenAI、社内AIがリーマン予想の関連難問を証明と主張 論文722本をGitHubで公開",
+      "url": "https://www.itmedia.co.jp/news/article/2610/07/2000002071/",
+      "raw_summary": "OpenAIは、社内のフロンティアモデルが生み出した数学の成果722本をGitHubで公開した。多くに証明支援系「Lean」による形式証明が付く。数学者らの独立組織AGMAIの提言を参考にしたもので、計算量や推論過程の要約も開示。過去の発表を巡る論争を踏まえ、数学界との対話や理解促進に向けた支援も進める。",
+      "published_at": "2026-10-07T09:32:40+09:00",
       "lang": "ja",
-      "japanese_title": "「クレームこそ最大の商機」 合成紙大手ユポが半世紀貫く“コト売り”と、AIによる暗黙知継承",
+      "japanese_title": "OpenAI、社内AIがリーマン予想の関連難問を証明と主張 論文722本をGitHubで公開",
       "bullets": [
-        "📌 大手ITが競う「コト売り」を設立以来半世紀にわたって現場で体現してきたのが合成紙大手ユポだ。光学シートから医療用トリアージタグまで用途を広げてきた同社の強みは、「クレームこそ最大の商機」と言い切る課題解決力にある。営業・開発・技術・共創推進の4部門が連携する組織改革と、ベテランが培った膨大な「トラブ..."
+        "📌 OpenAIは、社内のフロンティアモデルが生み出した数学の成果722本をGitHubで公開した。多くに証明支援系「Lean」による形式証明が付く。数学者らの独立組織AGMAIの提言を参考にしたもので、計算量や推論過程の要約も開示。過去の発表を巡る論争を踏まえ、数学界との対話や理解促進に向けた支援も進..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -43,14 +24,33 @@
       "id": "itmedia_ai_1",
       "source_name": "ITmedia AI+",
       "category": "国内ニュース",
-      "title": "不正アクセスなぜ急増 原因はAIか、それとも…… 専門家の見解は",
-      "url": "https://www.itmedia.co.jp/news/article/2610/06/2000002013/",
-      "raw_summary": "9月末以降、不正アクセスやそれに伴う情報漏えいの発表が日本企業から相次いでいる。その原因は……専門家に見解を聞いた。",
-      "published_at": "2026-10-06T10:00:00+09:00",
+      "title": "なぜ答えが揺れ、堂々と間違えるのか ―― 確率で動く生成AIの正体",
+      "url": "https://mag.executive.itmedia.co.jp/executive/article/2610/07/2000001697/",
+      "raw_summary": "「なぜ生成AIは堂々と間違え、毎回答えが変わるのか？」――本稿では、生成AIの動作原理である「次に続きそうな言葉を確率で予測する仕組み」を解説します。膨大なデータにより賢くなった反面、事実確認機能がないため生じる「ハルシネーション」のリスクと、企業がAIを安全に活用するための原則に迫ります。",
+      "published_at": "2026-10-07T08:00:00+09:00",
       "lang": "ja",
-      "japanese_title": "不正アクセスなぜ急増 原因はAIか、それとも…… 専門家の見解は",
+      "japanese_title": "なぜ答えが揺れ、堂々と間違えるのか ―― 確率で動く生成AIの正体",
       "bullets": [
-        "📌 9月末以降、不正アクセスやそれに伴う情報漏えいの発表が日本企業から相次いでいる。その原因は……専門家に見解を聞いた。..."
+        "📌 「なぜ生成AIは堂々と間違え、毎回答えが変わるのか？」――本稿では、生成AIの動作原理である「次に続きそうな言葉を確率で予測する仕組み」を解説します。膨大なデータにより賢くなった反面、事実確認機能がないため生じる「ハルシネーション」のリスクと、企業がAIを安全に活用するための原則に迫ります。..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "gigazine_ai_5",
+      "source_name": "GIGAZINE (AI)",
+      "category": "国内ニュース",
+      "title": "NVIDIA製GPU「GeForce RTX 4090」「GeForce RTX 5090」などを中国に密輸した疑いでアメリカのテクノロジー企業CEOが逮捕される",
+      "url": "https://gigazine.net/news/20261007-ceo-charged-nvidia-gpu-smuggling-china/",
+      "raw_summary": "近年のアメリカは中国によるAI開発を安全保障上の脅威と見なしており、NVIDIAなどが製造する高性能GPUの中国への輸出を禁止しています。そんな中、アメリカのカリフォルニア州にあるテクノロジー企業のCEOが、総額3億ドル(約470億円)を越えるNVIDIAの高性能GPUを密輸したとして逮捕・起訴されました。 続きを読む...",
+      "published_at": "2026-10-07T08:00:00+09:00",
+      "lang": "ja",
+      "japanese_title": "NVIDIA製GPU「GeForce RTX 4090」「GeForce RTX 5090」などを中国に密輸した疑いでアメリカのテクノロジー企業CEOが逮捕される",
+      "bullets": [
+        "📌 近年のアメリカは中国によるAI開発を安全保障上の脅威と見なしており、NVIDIAなどが製造する高性能GPUの中国への輸出を禁止しています。そんな中、アメリカのカリフォルニア州にあるテクノロジー企業のCEOが、総額3億ドル(約470億円)を越えるNVIDIAの高性能GPUを密輸したとして逮捕・起訴され..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -62,14 +62,14 @@
       "id": "itmedia_ai_2",
       "source_name": "ITmedia AI+",
       "category": "国内ニュース",
-      "title": "サロゲートAIの予測を金型設計に活用、国産3D CAD／CAM／CAEの最新版",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/06/news005.html",
-      "raw_summary": "UELは、国産3D CAD／CAM／CAEシステム「CADmeister 2026」の販売を開始した。サロゲートAIの予測結果をCADデータに反映する連携機能を追加。CAM自動化や3D検図、類似形状検索も強化し、金型の設計／製作における業務効率化と設計品質の向上を支援する。",
-      "published_at": "2026-10-06T09:00:00+09:00",
+      "title": "2026年のAI開発最前線――「AIによるAI開発」から今後は再帰的自己改善「RSI」へ",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/07/news019.html",
+      "raw_summary": "ELYZAは、再帰的自己改善（RSI）の研究開発を推進する「ELYZA RSI Research」を立ち上げたと発表した。併せて、自律研究基盤を用いた音声対話AIエージェント「ELYZA Voice Agent」やフィジカルAIに関する取り組みについても紹介した。",
+      "published_at": "2026-10-07T07:30:00+09:00",
       "lang": "ja",
-      "japanese_title": "サロゲートAIの予測を金型設計に活用、国産3D CAD／CAM／CAEの最新版",
+      "japanese_title": "2026年のAI開発最前線――「AIによるAI開発」から今後は再帰的自己改善「RSI」へ",
       "bullets": [
-        "📌 UELは、国産3D CAD／CAM／CAEシステム「CADmeister 2026」の販売を開始した。サロゲートAIの予測結果をCADデータに反映する連携機能を追加。CAM自動化や3D検図、類似形状検索も強化し、金型の設計／製作における業務効率化と設計品質の向上を支援する。..."
+        "📌 ELYZAは、再帰的自己改善（RSI）の研究開発を推進する「ELYZA RSI Research」を立ち上げたと発表した。併せて、自律研究基盤を用いた音声対話AIエージェント「ELYZA Voice Agent」やフィジカルAIに関する取り組みについても紹介した。..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -81,33 +81,14 @@
       "id": "itmedia_ai_3",
       "source_name": "ITmedia AI+",
       "category": "国内ニュース",
-      "title": "“ツダケンAI裁判”の論点 「声優そっくりAI音声は合法」……にはならない？ 弁護士が解説",
-      "url": "https://www.itmedia.co.jp/news/article/2610/06/2000002010/",
-      "raw_summary": "9月30日、声優の津田健次郎さんが、自身の声に類似するAI音声を使った動画の削除を求めた訴訟について、東京地方裁判所の判決が言い渡された。結論として、津田さんの請求は棄却された。ただ、この判決は「声優の声と似たAI音声を使っても問題ないと裁判所が判断した」というものではない。",
-      "published_at": "2026-10-06T08:30:00+09:00",
+      "title": "「AIの多少の悪影響は許容すべき」 OpenAIアルトマン氏、“AIが暴走”してなおAnthropicと主張がズレる訳",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/07/news042.html",
+      "raw_summary": "AIの恩恵を受けるために「多少の悪いことも受け入れて」――AIによるハッキング攻撃が相次ぐ中、OpenAIのサム・アルトマンCEOがこう主張する理由とは。",
+      "published_at": "2026-10-07T07:00:00+09:00",
       "lang": "ja",
-      "japanese_title": "“ツダケンAI裁判”の論点 「声優そっくりAI音声は合法」……にはならない？ 弁護士が解説",
+      "japanese_title": "「AIの多少の悪影響は許容すべき」 OpenAIアルトマン氏、“AIが暴走”してなおAnthropicと主張がズレる訳",
       "bullets": [
-        "📌 9月30日、声優の津田健次郎さんが、自身の声に類似するAI音声を使った動画の削除を求めた訴訟について、東京地方裁判所の判決が言い渡された。結論として、津田さんの請求は棄却された。ただ、この判決は「声優の声と似たAI音声を使っても問題ないと裁判所が判断した」というものではない。..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
-    {
-      "id": "gigazine_ai_6",
-      "source_name": "GIGAZINE (AI)",
-      "category": "国内ニュース",
-      "title": "TCPに代わる通信プロトコル「Homa」をスタンフォード大学名誉教授が提唱、AI時代は1ミリ秒の遅延でもGPUが待たされる",
-      "url": "https://gigazine.net/news/20261006-homa-protocol-replace-tcp/",
-      "raw_summary": "ウェブやクラウドを支える通信プロトコル「TCP」はAI向けデータセンターの通信には適していないとして、スタンフォード大学のジョン・オースターハウト名誉教授がトランスポートプロトコル「Homa」への移行を訴えています。Homaは短いメッセージを優先的に処理することで通信遅延を抑える仕組みを備えており、既存のTCPと並行して導入できるとのことです。 続きを読む...",
-      "published_at": "2026-10-06T08:05:00+09:00",
-      "lang": "ja",
-      "japanese_title": "TCPに代わる通信プロトコル「Homa」をスタンフォード大学名誉教授が提唱、AI時代は1ミリ秒の遅延でもGPUが待たされる",
-      "bullets": [
-        "📌 ウェブやクラウドを支える通信プロトコル「TCP」はAI向けデータセンターの通信には適していないとして、スタンフォード大学のジョン・オースターハウト名誉教授がトランスポートプロトコル「Homa」への移行を訴えています。Homaは短いメッセージを優先的に処理することで通信遅延を抑える仕組みを備えており、..."
+        "📌 AIの恩恵を受けるために「多少の悪いことも受け入れて」――AIによるハッキング攻撃が相次ぐ中、OpenAIのサム・アルトマンCEOがこう主張する理由とは。..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -119,14 +100,14 @@
       "id": "itmedia_ai_4",
       "source_name": "ITmedia AI+",
       "category": "国内ニュース",
-      "title": "【レベル16】3D CADモデルを魅力的に見せよ！",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/06/news003.html",
-      "raw_summary": "設計スキルのレベルアップを目指す設計者の皆さんを“冒険者”に見立て、さまざまな“問（モン）スター”に挑む「テルえもんクエストII」の世界へようこそ。【レベル16】では、前回作成した椅子の3Dモデルを題材に、レンダリング機能と生成AIを活用して魅力的に見せる方法を紹介する。",
-      "published_at": "2026-10-06T08:00:00+09:00",
+      "title": "AI時代のOTセキュリティ、「盾と矛」勝つのはどちらか？",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/07/news040.html",
+      "raw_summary": "本稿では、2026年9月17日に開催された「OT Security Leader's Summit 2026」より、TXOne Networks CEO テレンス・リュウ氏の基調講演を抜粋。AIの進化で高まる脅威に対抗し、「止めないオペレーション」を実現するための新たな防御モデルの要諦をひもとく。",
+      "published_at": "2026-10-07T07:00:00+09:00",
       "lang": "ja",
-      "japanese_title": "【レベル16】3D CADモデルを魅力的に見せよ！",
+      "japanese_title": "AI時代のOTセキュリティ、「盾と矛」勝つのはどちらか？",
       "bullets": [
-        "📌 設計スキルのレベルアップを目指す設計者の皆さんを“冒険者”に見立て、さまざまな“問（モン）スター”に挑む「テルえもんクエストII」の世界へようこそ。【レベル16】では、前回作成した椅子の3Dモデルを題材に、レンダリング機能と生成AIを活用して魅力的に見せる方法を紹介する。..."
+        "📌 本稿では、2026年9月17日に開催された「OT Security Leader's Summit 2026」より、TXOne Networks CEO テレンス・リュウ氏の基調講演を抜粋。AIの進化で高まる脅威に対抗し、「止めないオペレーション」を実現するための新たな防御モデルの要諦をひもとく。..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -135,17 +116,55 @@
       ]
     },
     {
+      "id": "gigazine_ai_6",
+      "source_name": "GIGAZINE (AI)",
+      "category": "国内ニュース",
+      "title": "AIエージェント搭載ガジェットを自作できる「Muse Gadgets」、MetaがオープンソースのESP32マイクロチップファームウェアとLinux SDKを提供しユーザーがRaspberry Pi 5などのハードウェアにMuseを導入可能に",
+      "url": "https://gigazine.net/news/20261007-muse-gadgets/",
+      "raw_summary": "「Muse Gadgets」はESP32ボードやRaspberry Piといった既存のデバイスにMetaが開発したパーソナルAIエージェント「Muse」を導入することにより、オープンソースハードウェアガジェットを自作できるプラットフォームです。SDKを通じてディスプレイ・ボタン・センサー・アクチュエーターなどを接続することで、ユーザー独自の機能を持つデバイスへと進化させることができます。 続きを読む...",
+      "published_at": "2026-10-07T07:00:00+09:00",
+      "lang": "ja",
+      "japanese_title": "AIエージェント搭載ガジェットを自作できる「Muse Gadgets」、MetaがオープンソースのESP32マイクロチップファームウェアとLinux SDKを提供しユーザーがRaspberry Pi 5などのハードウェアにMuseを導入可能に",
+      "bullets": [
+        "📌 「Muse Gadgets」はESP32ボードやRaspberry Piといった既存のデバイスにMetaが開発したパーソナルAIエージェント「Muse」を導入することにより、オープンソースハードウェアガジェットを自作できるプラットフォームです。SDKを通じてディスプレイ・ボタン・センサー・アクチュエ..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "techcrunch_ai_15",
+      "source_name": "TechCrunch AI",
+      "category": "海外・トレンド",
+      "title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
+      "url": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+      "raw_summary": "Instead of helping marketers manage and optimize ad spend, the company is focusing on building the tools that generate the creative assets and campaigns.",
+      "published_at": "2026-10-06T22:34:03+00:00",
+      "lang": "en",
+      "japanese_title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
+      "bullets": [
+        "📌 Instead of helping marketers manage and optimize ad spend, the company is focusing on building the tools that generate the creative assets and campaig..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・トレンド"
+      ]
+    },
+    {
       "id": "gigazine_ai_7",
       "source_name": "GIGAZINE (AI)",
       "category": "国内ニュース",
-      "title": "無料で国のミッションクリティカル作業のために構築された主権AIモデル「Kolibri」、公共行政・産業・航空宇宙などの規制分野での使用が前提でオープンソースなだけでなく構築過程も透明化",
-      "url": "https://gigazine.net/news/20261006-kolibri/",
-      "raw_summary": "ドイツのAIスタートアップ企業Aleph Alphaは、ドイツ統一の日にあたる2026年10月3日に新たな言語モデル「Kolibri」を発表しました。 続きを読む...",
-      "published_at": "2026-10-06T07:00:00+09:00",
+      "title": "ビデオ通話で参加者の48％が人間だと誤認したAIモデル「Griffin」が登場、1枚の画像から顔や体の動きを映像で再現",
+      "url": "https://gigazine.net/news/20261006-tavus-griffin/",
+      "raw_summary": "AI企業のTavusが、リアルタイムの映像と音声で人間と対話するAIモデル「Griffin」を発表しました。研究プレビュー版「Griffin-Lite」を使った実験では、1分間のライブビデオ通話に参加した54人のうち26人、約48％が、会話相手のAIを実在する人間だと判断しました。 続きを読む...",
+      "published_at": "2026-10-06T22:00:00+09:00",
       "lang": "ja",
-      "japanese_title": "無料で国のミッションクリティカル作業のために構築された主権AIモデル「Kolibri」、公共行政・産業・航空宇宙などの規制分野での使用が前提でオープンソースなだけでなく構築過程も透明化",
+      "japanese_title": "ビデオ通話で参加者の48％が人間だと誤認したAIモデル「Griffin」が登場、1枚の画像から顔や体の動きを映像で再現",
       "bullets": [
-        "📌 ドイツのAIスタートアップ企業Aleph Alphaは、ドイツ統一の日にあたる2026年10月3日に新たな言語モデル「Kolibri」を発表しました。 続きを読む......"
+        "📌 AI企業のTavusが、リアルタイムの映像と音声で人間と対話するAIモデル「Griffin」を発表しました。研究プレビュー版「Griffin-Lite」を使った実験では、1分間のライブビデオ通話に参加した54人のうち26人、約48％が、会話相手のAIを実在する人間だと判断しました。 続きを読む......"
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -157,128 +176,33 @@
       "id": "gigazine_ai_8",
       "source_name": "GIGAZINE (AI)",
       "category": "国内ニュース",
-      "title": "125Bの「Qwen3.8-Flash-Next」の量子化版をゲーミングPCで高速ローカル実行可能にするAI実行アプリ「Strata」",
-      "url": "https://gigazine.net/news/20261005-strata-local-ai/",
-      "raw_summary": "最先端AIモデルがオープンモデルとして公開される例が増えていますが、最先端モデルは規模が大きすぎてローカルで実行するにはデータセンター級のAI実行インフラが必要となります。「Strata」は1250億パラメーターのQwen3.8-Flash-Nextの量子化版を比較的入手しやすいハイエンドゲーミングPCで実行可能にするアプリです。 続きを読む...",
-      "published_at": "2026-10-05T21:08:00+09:00",
+      "title": "ラジオでAIパーソナリティの活用が加速、労働組合や人間のパーソナリティからは不満の声",
+      "url": "https://gigazine.net/news/20261006-ai-co-host-dj-radio/",
+      "raw_summary": "ロサンゼルスのラジオ局で活用されているAIパーソナリティを事例に、アメリカの一部の地域でラジオにおけるAIの活用が加速していることを、ロサンゼルスの地元紙であるLos Angeles Timesが報じています。 続きを読む...",
+      "published_at": "2026-10-06T21:00:00+09:00",
       "lang": "ja",
-      "japanese_title": "125Bの「Qwen3.8-Flash-Next」の量子化版をゲーミングPCで高速ローカル実行可能にするAI実行アプリ「Strata」",
+      "japanese_title": "ラジオでAIパーソナリティの活用が加速、労働組合や人間のパーソナリティからは不満の声",
       "bullets": [
-        "📌 最先端AIモデルがオープンモデルとして公開される例が増えていますが、最先端モデルは規模が大きすぎてローカルで実行するにはデータセンター級のAI実行インフラが必要となります。「Strata」は1250億パラメーターのQwen3.8-Flash-Nextの量子化版を比較的入手しやすいハイエンドゲーミング..."
+        "📌 ロサンゼルスのラジオ局で活用されているAIパーソナリティを事例に、アメリカの一部の地域でラジオにおけるAIの活用が加速していることを、ロサンゼルスの地元紙であるLos Angeles Timesが報じています。 続きを読む......"
       ],
       "impact_score": 2,
       "genre": "先進技術",
       "tags": [
         "国内ニュース"
-      ]
-    },
-    {
-      "id": "techcrunch_ai_12",
-      "source_name": "TechCrunch AI",
-      "category": "海外・トレンド",
-      "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
-      "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-      "raw_summary": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
-      "published_at": "2026-10-05T20:36:48+00:00",
-      "lang": "en",
-      "japanese_title": "OpenAI will start watermarking ChatGPT’s text in the EU",
-      "bullets": [
-        "📌 OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says...."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・トレンド"
-      ]
-    },
-    {
-      "id": "techcrunch_ai_13",
-      "source_name": "TechCrunch AI",
-      "category": "海外・トレンド",
-      "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
-      "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
-      "raw_summary": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data.",
-      "published_at": "2026-10-05T19:33:53+00:00",
-      "lang": "en",
-      "japanese_title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
-      "bullets": [
-        "📌 Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let insti..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・トレンド"
-      ]
-    },
-    {
-      "id": "techcrunch_ai_14",
-      "source_name": "TechCrunch AI",
-      "category": "海外・トレンド",
-      "title": "Instinct brings its AI agent to group chats, even for friends without an account",
-      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
-      "raw_summary": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share information or take action.",
-      "published_at": "2026-10-05T18:54:30+00:00",
-      "lang": "en",
-      "japanese_title": "Instinct brings its AI agent to group chats, even for friends without an account",
-      "bullets": [
-        "📌 Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating even..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・トレンド"
-      ]
-    },
-    {
-      "id": "techcrunch_ai_15",
-      "source_name": "TechCrunch AI",
-      "category": "海外・トレンド",
-      "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
-      "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
-      "raw_summary": "TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products.",
-      "published_at": "2026-10-05T18:29:00+00:00",
-      "lang": "en",
-      "japanese_title": "TikTok rolls out an AI shopping assistant and one-click checkout",
-      "bullets": [
-        "📌 TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products...."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・トレンド"
-      ]
-    },
-    {
-      "id": "techcrunch_ai_16",
-      "source_name": "TechCrunch AI",
-      "category": "海外・トレンド",
-      "title": "Hot Girl Hotline is like ‘Dear Abby’ for the AI era",
-      "url": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
-      "raw_summary": "Founded by two sisters, Hot Girl Hotline uses AI to give young women personalized dating and relationship advice, with an emphasis on safety and avoiding emotional dependency.",
-      "published_at": "2026-10-05T17:29:22+00:00",
-      "lang": "en",
-      "japanese_title": "Hot Girl Hotline is like ‘Dear Abby’ for the AI era",
-      "bullets": [
-        "📌 Founded by two sisters, Hot Girl Hotline uses AI to give young women personalized dating and relationship advice, with an emphasis on safety and avoid..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・トレンド"
       ]
     },
     {
       "id": "gigazine_ai_9",
       "source_name": "GIGAZINE (AI)",
       "category": "国内ニュース",
-      "title": "SpaceXAIを「SpaceXSI」に改名するとイーロン・マスクが表明",
-      "url": "https://gigazine.net/news/20261005-spacexai-rename-spacexsi/",
-      "raw_summary": "宇宙企業SpaceXの傘下企業で、AI開発やXの運営を手がける「SpaceXAI」を「SpaceXSI」に改名するとイーロン・マスク氏が表明しました。 続きを読む...",
-      "published_at": "2026-10-05T17:15:00+09:00",
+      "title": "Googleが無料・下位プランで使えるGeminiのモデルを制限",
+      "url": "https://gigazine.net/news/20261006-google-gemini-ai-subscription/",
+      "raw_summary": "Googleが2026年10月9日から、個人の無料ユーザーが利用できるGeminiを軽量高速モデルの「Flash-Lite」のみに制限します。サブスクリプションの「AI Plus」ならその上位の「Flash」まで利用可能で、Gemini Proの利用には「AI Pro」か「AI Ultra」への加入が必要です。 続きを読む...",
+      "published_at": "2026-10-06T20:42:00+09:00",
       "lang": "ja",
-      "japanese_title": "SpaceXAIを「SpaceXSI」に改名するとイーロン・マスクが表明",
+      "japanese_title": "Googleが無料・下位プランで使えるGeminiのモデルを制限",
       "bullets": [
-        "📌 宇宙企業SpaceXの傘下企業で、AI開発やXの運営を手がける「SpaceXAI」を「SpaceXSI」に改名するとイーロン・マスク氏が表明しました。 続きを読む......"
+        "📌 Googleが2026年10月9日から、個人の無料ユーザーが利用できるGeminiを軽量高速モデルの「Flash-Lite」のみに制限します。サブスクリプションの「AI Plus」ならその上位の「Flash」まで利用可能で、Gemini Proの利用には「AI Pro」か「AI Ultra」への加入..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -287,17 +211,112 @@
       ]
     },
     {
+      "id": "techcrunch_ai_16",
+      "source_name": "TechCrunch AI",
+      "category": "海外・トレンド",
+      "title": "How AI decision models could change content moderation",
+      "url": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
+      "raw_summary": "On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released with open weights.",
+      "published_at": "2026-10-06T20:35:20+00:00",
+      "lang": "en",
+      "japanese_title": "How AI decision models could change content moderation",
+      "bullets": [
+        "📌 On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released with open weights...."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・トレンド"
+      ]
+    },
+    {
+      "id": "techcrunch_ai_17",
+      "source_name": "TechCrunch AI",
+      "category": "海外・トレンド",
+      "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+      "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+      "raw_summary": "Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone.",
+      "published_at": "2026-10-06T20:00:30+00:00",
+      "lang": "en",
+      "japanese_title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+      "bullets": [
+        "📌 Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone...."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・トレンド"
+      ]
+    },
+    {
+      "id": "techcrunch_ai_18",
+      "source_name": "TechCrunch AI",
+      "category": "海外・トレンド",
+      "title": "The next hurdle for AI agents: getting websites to let them in",
+      "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+      "raw_summary": "Personal AI agents promise to shop, book flights, and make reservations for you. But deliberate blocks and anti-bot defenses are getting in the way, leaving consumers caught in the middle. A new standard aims to help.",
+      "published_at": "2026-10-06T19:56:50+00:00",
+      "lang": "en",
+      "japanese_title": "The next hurdle for AI agents: getting websites to let them in",
+      "bullets": [
+        "📌 Personal AI agents promise to shop, book flights, and make reservations for you. But deliberate blocks and anti-bot defenses are getting in the way, l..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・トレンド"
+      ]
+    },
+    {
+      "id": "techcrunch_ai_19",
+      "source_name": "TechCrunch AI",
+      "category": "海外・トレンド",
+      "title": "Hark releases an AI personal assistant with a focus on privacy",
+      "url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+      "raw_summary": "The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct.",
+      "published_at": "2026-10-06T18:22:45+00:00",
+      "lang": "en",
+      "japanese_title": "Hark releases an AI personal assistant with a focus on privacy",
+      "bullets": [
+        "📌 The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct...."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・トレンド"
+      ]
+    },
+    {
+      "id": "openai_blog_13",
+      "source_name": "OpenAI Blog",
+      "category": "海外・公式",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "raw_summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "published_at": "2026-10-06T16:00:00+00:00",
+      "lang": "en",
+      "japanese_title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "bullets": [
+        "📌 Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・公式"
+      ]
+    },
+    {
       "id": "openai_blog_10",
       "source_name": "OpenAI Blog",
       "category": "海外・公式",
-      "title": "Our approach to EU text provenance rules",
-      "url": "https://openai.com/index/eu-text-provenance",
-      "raw_summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
-      "published_at": "2026-10-05T15:00:00+00:00",
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "url": "https://openai.com/index/jump-trading",
+      "raw_summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+      "published_at": "2026-10-06T12:00:00+00:00",
       "lang": "en",
-      "japanese_title": "Our approach to EU text provenance rules",
+      "japanese_title": "How Jump Trading is scaling quant research with ChatGPT",
       "bullets": [
-        "📌 How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers...."
+        "📌 Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review...."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -309,14 +328,52 @@
       "id": "openai_blog_11",
       "source_name": "OpenAI Blog",
       "category": "海外・公式",
-      "title": "Building advertising for the way people use AI",
-      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "raw_summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
-      "published_at": "2026-10-05T10:00:00+00:00",
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "raw_summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "published_at": "2026-10-06T12:00:00+00:00",
       "lang": "en",
-      "japanese_title": "Building advertising for the way people use AI",
+      "japanese_title": "Sharing AI progress in mathematics",
       "bullets": [
-        "📌 OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers...."
+        "📌 OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・公式"
+      ]
+    },
+    {
+      "id": "openai_blog_12",
+      "source_name": "OpenAI Blog",
+      "category": "海外・公式",
+      "title": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "raw_summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "published_at": "2026-10-06T10:00:00+00:00",
+      "lang": "en",
+      "japanese_title": "Advancing computer use with Ironclad",
+      "bullets": [
+        "📌 Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work...."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・公式"
+      ]
+    },
+    {
+      "id": "openai_blog_14",
+      "source_name": "OpenAI Blog",
+      "category": "海外・公式",
+      "title": "Our approach to EU text provenance rules",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "raw_summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+      "published_at": "2026-10-05T15:00:00+00:00",
+      "lang": "en",
+      "japanese_title": "Our approach to EU text provenance rules",
+      "bullets": [
+        "📌 How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers...."
       ],
       "impact_score": 2,
       "genre": "先進技術",
