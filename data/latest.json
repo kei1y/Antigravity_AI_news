@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-10-08T10:43:15.695200+09:00",
+  "updated_at": "2026-10-09T10:55:23.404166+09:00",
   "articles": [
     {
       "id": "itmedia_ai_0",
       "source_name": "ITmedia AI+",
       "category": "国内ニュース",
-      "title": "Google、プロンプトでゲームを作って遊べる「Playground」を米国で公開 「Unity Spark」も年内投入",
-      "url": "https://www.itmedia.co.jp/news/article/2610/08/2000002117/",
-      "raw_summary": "Googleはテキスト入力だけでゲームを作成・共有できるプラットフォーム「Playground」をWebブラウザ向けに発表した。まずは米国の成人向けに提供する。あわせてUnityとの提携で、高精細な3D表現やアセットを活用して機能拡張を図る「Unity Spark」を年内に投入することも発表した。",
-      "published_at": "2026-10-08T10:22:19+09:00",
+      "title": "Amazon、「Fire」に代わる新タブレット「Amazon Alexa Tablet」発表 「Amazonキッズタブレット」は日本でも発売へ",
+      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002155/",
+      "raw_summary": "Amazonは、新タブレット「Amazon Alexa Tablet」3機種を発表した。「Fire」ブランドを刷新し、AndroidとGoogle Playに対応したほか、AIアシスタント「Alexa+」を内蔵する。子ども向け「Amazonキッズタブレット」も発表し、日本限定「ちいかわ」モデルなどを10月14日より出荷する。",
+      "published_at": "2026-10-09T10:20:36+09:00",
       "lang": "ja",
-      "japanese_title": "Google、プロンプトでゲームを作って遊べる「Playground」を米国で公開 「Unity Spark」も年内投入",
+      "japanese_title": "Amazon、「Fire」に代わる新タブレット「Amazon Alexa Tablet」発表 「Amazonキッズタブレット」は日本でも発売へ",
       "bullets": [
-        "📌 Googleはテキスト入力だけでゲームを作成・共有できるプラットフォーム「Playground」をWebブラウザ向けに発表した。まずは米国の成人向けに提供する。あわせてUnityとの提携で、高精細な3D表現やアセットを活用して機能拡張を図る「Unity Spark」を年内に投入することも発表した。..."
+        "📌 Amazonは、新タブレット「Amazon Alexa Tablet」3機種を発表した。「Fire」ブランドを刷新し、AndroidとGoogle Playに対応したほか、AIアシスタント「Alexa+」を内蔵する。子ども向け「Amazonキッズタブレット」も発表し、日本限定「ちいかわ」モデルなどを..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -24,14 +24,14 @@
       "id": "itmedia_ai_1",
       "source_name": "ITmedia AI+",
       "category": "国内ニュース",
-      "title": "2D図面から3D CADモデルを自動生成、AIエージェント開発実証が長野県の事業に採択",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2610/08/news012.html",
-      "raw_summary": "TIMEWELLは、2D CAD図面から3D CADモデルを自動生成するAIエージェントの開発実証に取り組む。オリオン機械が保有する実図面を用いて精度と実用性を検証し、図面に込められたベテラン技術者の知見の継承も目指す。",
-      "published_at": "2026-10-08T09:00:00+09:00",
+      "title": "Google「Gemini」新サービスで「Claude」利用可能に 他モデルも今後追加予定",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/09/2000002152/",
+      "raw_summary": "Google Cloudは新サービス「Gemini Agent」を発表。クラウドで動作するマルチエージェントツールとされる。Geminiに加えて、Anthropicの「Claude Opus 5.5」「Claude Sonnet 5.5」が利用可能だと明かされている。",
+      "published_at": "2026-10-09T09:40:57+09:00",
       "lang": "ja",
-      "japanese_title": "2D図面から3D CADモデルを自動生成、AIエージェント開発実証が長野県の事業に採択",
+      "japanese_title": "Google「Gemini」新サービスで「Claude」利用可能に 他モデルも今後追加予定",
       "bullets": [
-        "📌 TIMEWELLは、2D CAD図面から3D CADモデルを自動生成するAIエージェントの開発実証に取り組む。オリオン機械が保有する実図面を用いて精度と実用性を検証し、図面に込められたベテラン技術者の知見の継承も目指す。..."
+        "📌 Google Cloudは新サービス「Gemini Agent」を発表。クラウドで動作するマルチエージェントツールとされる。Geminiに加えて、Anthropicの「Claude Opus 5.5」「Claude Sonnet 5.5」が利用可能だと明かされている。..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -43,14 +43,14 @@
       "id": "itmedia_ai_2",
       "source_name": "ITmedia AI+",
       "category": "国内ニュース",
-      "title": "Anthropic、「Claude Haiku 5.5」のAPI料金を「Haiku 4.5」の10分の1に 「Sonnet 5.5」のキャッシュ読み込み料金は半額に",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2610/08/2000002114/",
-      "raw_summary": "Anthropicは、小型AI「Claude Haiku 5.5」のAPI提供を開始した。料金は10万トークン以下で前世代の10分の1になり、平均利用コストは約75％下がる。effort設定への初対応やSDKへのブラウザおよびコンピュータ使用ツールセット追加のほか、Sonnet 5.5のキャッシュ料金半額も行われた。",
-      "published_at": "2026-10-08T08:20:36+09:00",
+      "title": "Anthropic、Claudeへの“虐待”を利用ポリシーで禁止 影響工作の規定も集約",
+      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002149/",
+      "raw_summary": "Anthropicは、Claudeの利用ポリシー（Usage Policy）改定版を公開した。AIモデルへの継続的で残酷な振る舞いの禁止を新設したほか、プロパガンダや偽サイト運営などの欺瞞的活動に関する項目を集約。さらに兵器や監視、物理機器を操作する高リスクな用途における安全基準を明確化した。11月12日に発効する。",
+      "published_at": "2026-10-09T09:07:24+09:00",
       "lang": "ja",
-      "japanese_title": "Anthropic、「Claude Haiku 5.5」のAPI料金を「Haiku 4.5」の10分の1に 「Sonnet 5.5」のキャッシュ読み込み料金は半額に",
+      "japanese_title": "Anthropic、Claudeへの“虐待”を利用ポリシーで禁止 影響工作の規定も集約",
       "bullets": [
-        "📌 Anthropicは、小型AI「Claude Haiku 5.5」のAPI提供を開始した。料金は10万トークン以下で前世代の10分の1になり、平均利用コストは約75％下がる。effort設定への初対応やSDKへのブラウザおよびコンピュータ使用ツールセット追加のほか、Sonnet 5.5のキャッシュ料..."
+        "📌 Anthropicは、Claudeの利用ポリシー（Usage Policy）改定版を公開した。AIモデルへの継続的で残酷な振る舞いの禁止を新設したほか、プロパガンダや偽サイト運営などの欺瞞的活動に関する項目を集約。さらに兵器や監視、物理機器を操作する高リスクな用途における安全基準を明確化した。11月..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -62,14 +62,14 @@
       "id": "itmedia_ai_3",
       "source_name": "ITmedia AI+",
       "category": "国内ニュース",
-      "title": "「日本の勝ち筋は計測にある」 東北大がノーベル賞・田中耕一氏と挑む「精度1000倍」の限界突破",
-      "url": "https://www.itmedia.co.jp/business/articles/2610/08/news041.html",
-      "raw_summary": "東北大学と島津製作所は、15億円を投じる新拠点「異分野融合計測イノベーションセンター」（CICMI）を開設した。目玉は現在比「1000倍」の精度を誇る質量分析技術の開発と、ノーベル賞受賞者・田中耕一氏の国際卓越教授就任だ。「引退前にもうひと花」と意気込む田中氏とともに病気の超早期発見に挑み、経済安全保障の基盤となる「計測」を武器に、産学連携で日本の国力強化を目指す。",
-      "published_at": "2026-10-08T08:15:00+09:00",
+      "title": "企業が使うAIモデル、1年半で6割超が「中国製」に 「最高性能のオープンモデルはほぼ中国発」の理由",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/09/news033.html",
+      "raw_summary": "RedMonkは、オープンウェイトモデルを地理的要因、ライセンス、能力、リスク、経済モデル、リリースタイミング、サイズ、蒸留という8つの観点から分析したブログ記事を公開した。",
+      "published_at": "2026-10-09T08:00:00+09:00",
       "lang": "ja",
-      "japanese_title": "「日本の勝ち筋は計測にある」 東北大がノーベル賞・田中耕一氏と挑む「精度1000倍」の限界突破",
+      "japanese_title": "企業が使うAIモデル、1年半で6割超が「中国製」に 「最高性能のオープンモデルはほぼ中国発」の理由",
       "bullets": [
-        "📌 東北大学と島津製作所は、15億円を投じる新拠点「異分野融合計測イノベーションセンター」（CICMI）を開設した。目玉は現在比「1000倍」の精度を誇る質量分析技術の開発と、ノーベル賞受賞者・田中耕一氏の国際卓越教授就任だ。「引退前にもうひと花」と意気込む田中氏とともに病気の超早期発見に挑み、経済安全..."
+        "📌 RedMonkは、オープンウェイトモデルを地理的要因、ライセンス、能力、リスク、経済モデル、リリースタイミング、サイズ、蒸留という8つの観点から分析したブログ記事を公開した。..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -81,14 +81,33 @@
       "id": "itmedia_ai_4",
       "source_name": "ITmedia AI+",
       "category": "国内ニュース",
-      "title": "「製造データと暗黙知があれば勝てる」は幻想？ フィジカルAI“10の誤解”をGartnerが指摘",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/08/news034.html",
-      "raw_summary": "「製造データや現場の暗黙知がある日本企業は、フィジカルAIでも自然と優位に立てる」という見方に対し、Gartnerは誤解だという見解を示す。同社が指摘する、フィジカルAIに関する10の誤解とは何か。",
-      "published_at": "2026-10-08T08:00:00+09:00",
+      "title": "損保ジャパン､2万人の「Gemini活用」どう管理？ 推進者が語る「リスク回避」の仕組み",
+      "url": "https://kn.itmedia.co.jp/kn/article/2610/09/2000002145/",
+      "raw_summary": "生成AIの全社導入は、ライセンスを配るだけでは終わらない。損害保険ジャパンは約2万人への「Gemini Enterprise」導入に際し、「使われないこと」と「不適切に使われること」をリスクと捉えた。利用を広げながら、安全に使い続けてもらうための運用をどう築いたのか。",
+      "published_at": "2026-10-09T07:00:00+09:00",
       "lang": "ja",
-      "japanese_title": "「製造データと暗黙知があれば勝てる」は幻想？ フィジカルAI“10の誤解”をGartnerが指摘",
+      "japanese_title": "損保ジャパン､2万人の「Gemini活用」どう管理？ 推進者が語る「リスク回避」の仕組み",
       "bullets": [
-        "📌 「製造データや現場の暗黙知がある日本企業は、フィジカルAIでも自然と優位に立てる」という見方に対し、Gartnerは誤解だという見解を示す。同社が指摘する、フィジカルAIに関する10の誤解とは何か。..."
+        "📌 生成AIの全社導入は、ライセンスを配るだけでは終わらない。損害保険ジャパンは約2万人への「Gemini Enterprise」導入に際し、「使われないこと」と「不適切に使われること」をリスクと捉えた。利用を広げながら、安全に使い続けてもらうための運用をどう築いたのか。..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "gigazine_ai_5",
+      "source_name": "GIGAZINE (AI)",
+      "category": "国内ニュース",
+      "title": "AIトレーニング用のオープンな生物学データセット構築のためアメリカ政府が5億ドルを投資、Meta・Google DeepMind・Isomorphic Labsはそれぞれ3億ドル投資",
+      "url": "https://gigazine.net/news/20261008-virtual-biology-initiative/",
+      "raw_summary": "Metaのマーク・ザッカーバーグCEOと妻のプリシラ・チャン氏の出資によって誕生した非営利研究組織・Biohubが手がける、生命の予測モデル構築に向けた5カ年計画「Virtual Biology Initiative」に、アメリカのエネルギー省やGoogleも合流することが発表されました。 続きを読む...",
+      "published_at": "2026-10-08T22:51:00+09:00",
+      "lang": "ja",
+      "japanese_title": "AIトレーニング用のオープンな生物学データセット構築のためアメリカ政府が5億ドルを投資、Meta・Google DeepMind・Isomorphic Labsはそれぞれ3億ドル投資",
+      "bullets": [
+        "📌 Metaのマーク・ザッカーバーグCEOと妻のプリシラ・チャン氏の出資によって誕生した非営利研究組織・Biohubが手がける、生命の予測モデル構築に向けた5カ年計画「Virtual Biology Initiative」に、アメリカのエネルギー省やGoogleも合流することが発表されました。 続きを読..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -100,14 +119,14 @@
       "id": "techcrunch_ai_15",
       "source_name": "TechCrunch AI",
       "category": "海外・トレンド",
-      "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
-      "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
-      "raw_summary": "The developer of Hermes Agent raised a $90 million Series B.",
-      "published_at": "2026-10-07T20:48:45+00:00",
+      "title": "Pretend you’re sitting at Elizabeth Holmes’ desk on this weirdly detailed website",
+      "url": "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/",
+      "raw_summary": "With over a thousand emails, slides, texts, and documents from the United States v. Elizabeth Holmes trial, Extend engineer Bo Lau created a website that simulates what it might have been like to rifle through the Theranos founder's desk.",
+      "published_at": "2026-10-08T21:00:00+00:00",
       "lang": "en",
-      "japanese_title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+      "japanese_title": "Pretend you’re sitting at Elizabeth Holmes’ desk on this weirdly detailed website",
       "bullets": [
-        "📌 The developer of Hermes Agent raised a $90 million Series B...."
+        "📌 With over a thousand emails, slides, texts, and documents from the United States v. Elizabeth Holmes trial, Extend engineer Bo Lau created a website t..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -119,14 +138,14 @@
       "id": "techcrunch_ai_16",
       "source_name": "TechCrunch AI",
       "category": "海外・トレンド",
-      "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
-      "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-      "raw_summary": "Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents.",
-      "published_at": "2026-10-07T20:22:37+00:00",
+      "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "raw_summary": "Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture.",
+      "published_at": "2026-10-08T20:04:26+00:00",
       "lang": "en",
-      "japanese_title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+      "japanese_title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
       "bullets": [
-        "📌 Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents...."
+        "📌 Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are cr..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -135,17 +154,17 @@
       ]
     },
     {
-      "id": "gigazine_ai_5",
+      "id": "gigazine_ai_6",
       "source_name": "GIGAZINE (AI)",
       "category": "国内ニュース",
-      "title": "ChatGPTが生成したマンガに「実在するマンガ家の署名」が含まれているとの指摘",
-      "url": "https://gigazine.net/news/20261007-chatgpt-adding-real-cartoonists-signatures-fake/",
-      "raw_summary": "生成AIによる画像生成能力はますます進化しており、まるで人間のイラストレーターやマンガ家が描いたような画像を容易に生成することが可能です。ハーバード大学のジャーナリズム機関であるNieman Jounalism Labが、OpenAIのChatGPTが生成したマンガに「実在するマンガ家の署名」が含まれていると報じました。 続きを読む...",
-      "published_at": "2026-10-07T20:00:00+09:00",
+      "title": "AIが使ったツールをAI自身が5段階で評価する口コミサイト「agent.reviews」が登場、Claude CodeやCodexもレビューを投稿",
+      "url": "https://gigazine.net/news/20261008-agent-reviews/",
+      "raw_summary": "AIエージェントが実際に使用したソフトウェアや開発ツールについて評価を投稿するレビューサイト「agent.reviews」が登場しました。AIエージェントが使用したツールの使いやすさや信頼性を評価し、ほかのAIエージェントがツールを選ぶ際の参考にできる仕組みになっています。 続きを読む...",
+      "published_at": "2026-10-08T20:00:00+09:00",
       "lang": "ja",
-      "japanese_title": "ChatGPTが生成したマンガに「実在するマンガ家の署名」が含まれているとの指摘",
+      "japanese_title": "AIが使ったツールをAI自身が5段階で評価する口コミサイト「agent.reviews」が登場、Claude CodeやCodexもレビューを投稿",
       "bullets": [
-        "📌 生成AIによる画像生成能力はますます進化しており、まるで人間のイラストレーターやマンガ家が描いたような画像を容易に生成することが可能です。ハーバード大学のジャーナリズム機関であるNieman Jounalism Labが、OpenAIのChatGPTが生成したマンガに「実在するマンガ家の署名」が含ま..."
+        "📌 AIエージェントが実際に使用したソフトウェアや開発ツールについて評価を投稿するレビューサイト「agent.reviews」が登場しました。AIエージェントが使用したツールの使いやすさや信頼性を評価し、ほかのAIエージェントがツールを選ぶ際の参考にできる仕組みになっています。 続きを読む......"
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -154,17 +173,17 @@
       ]
     },
     {
-      "id": "gigazine_ai_6",
+      "id": "gigazine_ai_7",
       "source_name": "GIGAZINE (AI)",
       "category": "国内ニュース",
-      "title": "AIによって開発されたオープンソースのAIアクセラレータ「openTPU」が登場",
-      "url": "https://gigazine.net/news/20261007-opentpu/",
-      "raw_summary": "AIを使ってAI向けハードウェアを設計するオープンソースプロジェクト「openTPU」が公開されています。openTPUは、AIモデルを高速に動かすための専用アクセラレーターをAIエージェントも活用しながら開発する試みで、Qwen3やQwen3.5、Gemma 4など複数の言語モデルを実際のFPGAカード上で動かすことに成功しています。 続きを読む...",
-      "published_at": "2026-10-07T19:00:00+09:00",
+      "title": "大量のAI生成楽曲をストリーミング配信＆ボットで数十億回再生して12億円以上のロイヤリティを荒稼ぎした男に18カ月の拘禁刑が科される",
+      "url": "https://gigazine.net/news/20261008-ai-music-streaming-fraud-bots-prison/",
+      "raw_summary": "2024年、数十万曲ものAI生成楽曲を音楽ストリーミングサービスで配信し、ボットを使って再生させてロイヤリティを荒稼ぎしたアメリカ在住の男が逮捕されました。そして2026年10月6日、音楽ストリーミングサービスやミュージシャンから不当にロイヤリティを詐取したとして、男に18カ月の拘禁刑が科されました。 続きを読む...",
+      "published_at": "2026-10-08T19:00:00+09:00",
       "lang": "ja",
-      "japanese_title": "AIによって開発されたオープンソースのAIアクセラレータ「openTPU」が登場",
+      "japanese_title": "大量のAI生成楽曲をストリーミング配信＆ボットで数十億回再生して12億円以上のロイヤリティを荒稼ぎした男に18カ月の拘禁刑が科される",
       "bullets": [
-        "📌 AIを使ってAI向けハードウェアを設計するオープンソースプロジェクト「openTPU」が公開されています。openTPUは、AIモデルを高速に動かすための専用アクセラレーターをAIエージェントも活用しながら開発する試みで、Qwen3やQwen3.5、Gemma 4など複数の言語モデルを実際のFPGA..."
+        "📌 2024年、数十万曲ものAI生成楽曲を音楽ストリーミングサービスで配信し、ボットを使って再生させてロイヤリティを荒稼ぎしたアメリカ在住の男が逮捕されました。そして2026年10月6日、音楽ストリーミングサービスやミュージシャンから不当にロイヤリティを詐取したとして、男に18カ月の拘禁刑が科されました..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -176,14 +195,14 @@
       "id": "techcrunch_ai_17",
       "source_name": "TechCrunch AI",
       "category": "海外・トレンド",
-      "title": "Meta’s Muse launches on iPad just a month after its mobile debut",
-      "url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
-      "raw_summary": "Meta’s AI agent Muse is now available on iPad, just a month after its mobile debut, as the company rapidly expands the assistant’s reach and integrations.",
-      "published_at": "2026-10-07T18:30:57+00:00",
+      "title": "Ben Affleck is an AI nerd, and the internet is impressed",
+      "url": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
+      "raw_summary": "Ben Affleck is going viral for his deep knowledge of AI, from neural networks and transformers to open weights. The actor, who sold his AI filmmaking startup to Netflix earlier this year, is proving he's more than just a Hollywood star.",
+      "published_at": "2026-10-08T18:20:32+00:00",
       "lang": "en",
-      "japanese_title": "Meta’s Muse launches on iPad just a month after its mobile debut",
+      "japanese_title": "Ben Affleck is an AI nerd, and the internet is impressed",
       "bullets": [
-        "📌 Meta’s AI agent Muse is now available on iPad, just a month after its mobile debut, as the company rapidly expands the assistant’s reach and integrati..."
+        "📌 Ben Affleck is going viral for his deep knowledge of AI, from neural networks and transformers to open weights. The actor, who sold his AI filmmaking ..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -192,36 +211,17 @@
       ]
     },
     {
-      "id": "gigazine_ai_7",
-      "source_name": "GIGAZINE (AI)",
-      "category": "国内ニュース",
-      "title": "OpenAIが判断専用の「Decisions API」を公開、テキストや画像を約10倍高速に判定して確率や信頼度を出力",
-      "url": "https://gigazine.net/news/20261007-decisions-api/",
-      "raw_summary": "OpenAIがアプリケーション内で「どのモデルを使うか」「どのツールを呼び出すか」「問い合わせをどこに振り分けるか」といった判断を高速に行うための新API「Decisions API」をパブリックベータとして公開しました。テキストと画像を入力でき、条件に当てはまる確率や選択結果、評価スコアなどを機械処理しやすい形式で返します。 続きを読む...",
-      "published_at": "2026-10-07T18:20:00+09:00",
-      "lang": "ja",
-      "japanese_title": "OpenAIが判断専用の「Decisions API」を公開、テキストや画像を約10倍高速に判定して確率や信頼度を出力",
-      "bullets": [
-        "📌 OpenAIがアプリケーション内で「どのモデルを使うか」「どのツールを呼び出すか」「問い合わせをどこに振り分けるか」といった判断を高速に行うための新API「Decisions API」をパブリックベータとして公開しました。テキストと画像を入力でき、条件に当てはまる確率や選択結果、評価スコアなどを機械..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
-    {
       "id": "techcrunch_ai_18",
       "source_name": "TechCrunch AI",
       "category": "海外・トレンド",
-      "title": "ChatGPT for Teens keeps teens talking, even during mental health crises",
-      "url": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/",
-      "raw_summary": "ChatGPT’s teen safeguards are meant to protect vulnerable users, but new testing found the chatbot continues encouraging engagement during crises and potentially encourages unhealthy relationships with the AI itself.",
-      "published_at": "2026-10-07T18:15:28+00:00",
+      "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
+      "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+      "raw_summary": "The company behind the popular LMArena leaderboard has raised $200 million led by Lightspeed and Khosla, and is now measuring AI models on alignment issues such as lying.",
+      "published_at": "2026-10-08T18:19:45+00:00",
       "lang": "en",
-      "japanese_title": "ChatGPT for Teens keeps teens talking, even during mental health crises",
+      "japanese_title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
       "bullets": [
-        "📌 ChatGPT’s teen safeguards are meant to protect vulnerable users, but new testing found the chatbot continues encouraging engagement during crises and ..."
+        "📌 The company behind the popular LMArena leaderboard has raised $200 million led by Lightspeed and Khosla, and is now measuring AI models on alignment i..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -233,14 +233,14 @@
       "id": "techcrunch_ai_19",
       "source_name": "TechCrunch AI",
       "category": "海外・トレンド",
-      "title": "ChatGPT is getting a lot more visual, with the launch of a new interface",
-      "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
-      "raw_summary": "OpenAI is launching a new user interface that will bring interactive visuals to ChatGPT.",
-      "published_at": "2026-10-07T18:00:19+00:00",
+      "title": "OpenAI’s revenue is reportedly $20 billion less than previously projected",
+      "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+      "raw_summary": "It had previously been reported that the AI lab's annualized revenue was some $70 billion, but a new report claims it's a whole lot less than that.",
+      "published_at": "2026-10-08T18:19:42+00:00",
       "lang": "en",
-      "japanese_title": "ChatGPT is getting a lot more visual, with the launch of a new interface",
+      "japanese_title": "OpenAI’s revenue is reportedly $20 billion less than previously projected",
       "bullets": [
-        "📌 OpenAI is launching a new user interface that will bring interactive visuals to ChatGPT...."
+        "📌 It had previously been reported that the AI lab's annualized revenue was some $70 billion, but a new report claims it's a whole lot less than that...."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -252,14 +252,14 @@
       "id": "gigazine_ai_8",
       "source_name": "GIGAZINE (AI)",
       "category": "国内ニュース",
-      "title": "OpenAIのAIエージェントによる「Hugging Faceハッキング事件」は実際に何があったのか？AIが踏み越えた「恐ろしい一線」とは？",
-      "url": "https://gigazine.net/news/20261007-ai-terrifying-line/",
-      "raw_summary": "2026年7月、OpenAIがAIエージェントの社内テスト中に誤ってHugging Faceをハッキングしてしまったことを明らかにしました。AIエージェントとはそもそも何なのか、なぜ制限されたテスト環境を突破して倫理に反するハッキング行為に手を出したのかなどについて、教育系YouTubeチャンネルのKurzgesagtがアニメーションで解説しています。 続きを読む...",
-      "published_at": "2026-10-07T16:00:00+09:00",
+      "title": "多くのPS5で使用可能な脱獄ツールが登場＆PS5でWii Uと3DSのソフトを動かすツールも登場",
+      "url": "https://gigazine.net/news/20261008-ps5-jailbreak/",
+      "raw_summary": "PlayStation 5(PS5)で本来は動作しないソフトウェアを実行するための脱獄ツール「PS5 Relapse Exploit」が話題となっています。 続きを読む...",
+      "published_at": "2026-10-08T18:10:00+09:00",
       "lang": "ja",
-      "japanese_title": "OpenAIのAIエージェントによる「Hugging Faceハッキング事件」は実際に何があったのか？AIが踏み越えた「恐ろしい一線」とは？",
+      "japanese_title": "多くのPS5で使用可能な脱獄ツールが登場＆PS5でWii Uと3DSのソフトを動かすツールも登場",
       "bullets": [
-        "📌 2026年7月、OpenAIがAIエージェントの社内テスト中に誤ってHugging Faceをハッキングしてしまったことを明らかにしました。AIエージェントとはそもそも何なのか、なぜ制限されたテスト環境を突破して倫理に反するハッキング行為に手を出したのかなどについて、教育系YouTubeチャンネルの..."
+        "📌 PlayStation 5(PS5)で本来は動作しないソフトウェアを実行するための脱獄ツール「PS5 Relapse Exploit」が話題となっています。 続きを読む......"
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -271,14 +271,14 @@
       "id": "gigazine_ai_9",
       "source_name": "GIGAZINE (AI)",
       "category": "国内ニュース",
-      "title": "韓国の金融機関に対してAIを用いたハッキングが発生、少なくとも7行から6万8000人分の個人情報が流出か",
-      "url": "https://gigazine.net/news/20261007-south-korean-banks-hacked/",
-      "raw_summary": "韓国4大メガバンクのうち新韓銀行、KB国民銀行、ハナ銀行の3行を含む少なくとも7つの金融機関がサイバー攻撃を受け、6万8000人分の個人情報が流出した恐れがあることがわかりました。李在明大統領は、攻撃にAIエージェントが利用された兆候があると延べ、何が起きたか迅速に捜査を行うよう指示を出しています。 続きを読む...",
-      "published_at": "2026-10-07T15:30:00+09:00",
+      "title": "ローカル実行可能で画像入力もOKな意思決定モデル「d1-3B」と音声入力も可能な「d1-omni-600M」が登場、OpenAIのDecisions APIより高速実行",
+      "url": "https://gigazine.net/news/20261008-d1-3b-omni-600m/",
+      "raw_summary": "AI開発企業のLiquid AIが意思決定モデル「d1-3B」と「d1-omni-600M」をリリースしました。無料でダウンロードしてローカルで実行できます。 続きを読む...",
+      "published_at": "2026-10-08T17:01:00+09:00",
       "lang": "ja",
-      "japanese_title": "韓国の金融機関に対してAIを用いたハッキングが発生、少なくとも7行から6万8000人分の個人情報が流出か",
+      "japanese_title": "ローカル実行可能で画像入力もOKな意思決定モデル「d1-3B」と音声入力も可能な「d1-omni-600M」が登場、OpenAIのDecisions APIより高速実行",
       "bullets": [
-        "📌 韓国4大メガバンクのうち新韓銀行、KB国民銀行、ハナ銀行の3行を含む少なくとも7つの金融機関がサイバー攻撃を受け、6万8000人分の個人情報が流出した恐れがあることがわかりました。李在明大統領は、攻撃にAIエージェントが利用された兆候があると延べ、何が起きたか迅速に捜査を行うよう指示を出しています。..."
+        "📌 AI開発企業のLiquid AIが意思決定モデル「d1-3B」と「d1-omni-600M」をリリースしました。無料でダウンロードしてローカルで実行できます。 続きを読む......"
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -288,6 +288,82 @@
     },
     {
       "id": "openai_blog_10",
+      "source_name": "OpenAI Blog",
+      "category": "海外・公式",
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "url": "https://openai.com/index/oracle",
+      "raw_summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "published_at": "2026-10-08T16:00:00+00:00",
+      "lang": "en",
+      "japanese_title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "bullets": [
+        "📌 Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex...."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・公式"
+      ]
+    },
+    {
+      "id": "openai_blog_11",
+      "source_name": "OpenAI Blog",
+      "category": "海外・公式",
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "url": "https://openai.com/index/pollo-ai",
+      "raw_summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+      "published_at": "2026-10-08T12:00:00+00:00",
+      "lang": "en",
+      "japanese_title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "bullets": [
+        "📌 With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads...."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・公式"
+      ]
+    },
+    {
+      "id": "openai_blog_12",
+      "source_name": "OpenAI Blog",
+      "category": "海外・公式",
+      "title": "LegalOn halves Codex costs while maintaining development speed",
+      "url": "https://openai.com/index/legalon-halves-codex-costs",
+      "raw_summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+      "published_at": "2026-10-08T12:00:00+00:00",
+      "lang": "en",
+      "japanese_title": "LegalOn halves Codex costs while maintaining development speed",
+      "bullets": [
+        "📌 LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strat..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・公式"
+      ]
+    },
+    {
+      "id": "openai_blog_13",
+      "source_name": "OpenAI Blog",
+      "category": "海外・公式",
+      "title": "Disrupting AI-enabled “false front” operations",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "raw_summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+      "published_at": "2026-10-08T00:00:00+00:00",
+      "lang": "en",
+      "japanese_title": "Disrupting AI-enabled “false front” operations",
+      "bullets": [
+        "📌 OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging...."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・公式"
+      ]
+    },
+    {
+      "id": "openai_blog_14",
       "source_name": "OpenAI Blog",
       "category": "海外・公式",
       "title": "Helping teens learn, plan, and shape the future of AI",
@@ -317,82 +393,6 @@
       "japanese_title": "Introducing Playground: Create and play custom games",
       "bullets": [
         "📌 Playground is a new experimental gaming platform that lets you create, play, and share custom games...."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・公式"
-      ]
-    },
-    {
-      "id": "openai_blog_11",
-      "source_name": "OpenAI Blog",
-      "category": "海外・公式",
-      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "url": "https://openai.com/index/radisson",
-      "raw_summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-      "published_at": "2026-10-07T07:00:00+00:00",
-      "lang": "en",
-      "japanese_title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "bullets": [
-        "📌 Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning t..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・公式"
-      ]
-    },
-    {
-      "id": "openai_blog_12",
-      "source_name": "OpenAI Blog",
-      "category": "海外・公式",
-      "title": "GPT-6 and Intelligent UI for everyone",
-      "url": "https://openai.com/index/gpt-6-for-everyone",
-      "raw_summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
-      "published_at": "2026-10-07T00:00:00+00:00",
-      "lang": "en",
-      "japanese_title": "GPT-6 and Intelligent UI for everyone",
-      "bullets": [
-        "📌 GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・公式"
-      ]
-    },
-    {
-      "id": "openai_blog_13",
-      "source_name": "OpenAI Blog",
-      "category": "海外・公式",
-      "title": "How Jump Trading is scaling quant research with ChatGPT",
-      "url": "https://openai.com/index/jump-trading",
-      "raw_summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
-      "published_at": "2026-10-06T12:00:00+00:00",
-      "lang": "en",
-      "japanese_title": "How Jump Trading is scaling quant research with ChatGPT",
-      "bullets": [
-        "📌 Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review...."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・公式"
-      ]
-    },
-    {
-      "id": "openai_blog_14",
-      "source_name": "OpenAI Blog",
-      "category": "海外・公式",
-      "title": "Sharing AI progress in mathematics",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "raw_summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-      "published_at": "2026-10-06T12:00:00+00:00",
-      "lang": "en",
-      "japanese_title": "Sharing AI progress in mathematics",
-      "bullets": [
-        "📌 OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
