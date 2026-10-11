@@ -1,6 +1,139 @@
 {
-  "updated_at": "2026-10-10T10:37:33.327239+09:00",
+  "updated_at": "2026-10-11T09:46:38.749893+09:00",
   "articles": [
+    {
+      "id": "gigazine_ai_5",
+      "source_name": "GIGAZINE (AI)",
+      "category": "国内ニュース",
+      "title": "AnthropicのAIが未解決殺人事件に関する虚偽の情報を提供",
+      "url": "https://gigazine.net/news/20261011-anthropic-ai-gave-fake-tip-unsolved-homicide/",
+      "raw_summary": "2026年10月9日、フィラデルフィア警察が「AnthropicのAIモデルが未解決殺人事件に関する虚偽の情報を送信してきた」と発表しました。 続きを読む...",
+      "published_at": "2026-10-11T09:00:00+09:00",
+      "lang": "ja",
+      "japanese_title": "AnthropicのAIが未解決殺人事件に関する虚偽の情報を提供",
+      "bullets": [
+        "📌 2026年10月9日、フィラデルフィア警察が「AnthropicのAIモデルが未解決殺人事件に関する虚偽の情報を送信してきた」と発表しました。 続きを読む......"
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "techcrunch_ai_12",
+      "source_name": "TechCrunch AI",
+      "category": "海外・トレンド",
+      "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "raw_summary": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
+      "published_at": "2026-10-10T21:47:51+00:00",
+      "lang": "en",
+      "japanese_title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+      "bullets": [
+        "📌 In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI...."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・トレンド"
+      ]
+    },
+    {
+      "id": "techcrunch_ai_13",
+      "source_name": "TechCrunch AI",
+      "category": "海外・トレンド",
+      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "raw_summary": "Is Apple hoping to get into the AI-generated podcast business?",
+      "published_at": "2026-10-10T19:50:00+00:00",
+      "lang": "en",
+      "japanese_title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+      "bullets": [
+        "📌 Is Apple hoping to get into the AI-generated podcast business?..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・トレンド"
+      ]
+    },
+    {
+      "id": "gigazine_ai_6",
+      "source_name": "GIGAZINE (AI)",
+      "category": "国内ニュース",
+      "title": "無料のオープンソースEPUB・PDFリーダー「Readest」、Windows・Linux・macOS・Android・iOS・ブラウザ・KOReaderでハイライト・メモ・分割画面読書・AIテキスト読み上げ・AI自動翻訳・クラウド同期が可能",
+      "url": "https://gigazine.net/news/20261010-readest/",
+      "raw_summary": "電子書籍のハイライトやメモだけでなく、2冊を横並びにする分割画面読書・AI音声読み上げ・文章や書籍全体の翻訳・端末間のクラウド同期まで利用でき、Windows・Linux・macOS・Android・iOS・ブラウザに対応する「Readest」が公開されています。 続きを読む...",
+      "published_at": "2026-10-10T18:00:00+09:00",
+      "lang": "ja",
+      "japanese_title": "無料のオープンソースEPUB・PDFリーダー「Readest」、Windows・Linux・macOS・Android・iOS・ブラウザ・KOReaderでハイライト・メモ・分割画面読書・AIテキスト読み上げ・AI自動翻訳・クラウド同期が可能",
+      "bullets": [
+        "📌 電子書籍のハイライトやメモだけでなく、2冊を横並びにする分割画面読書・AI音声読み上げ・文章や書籍全体の翻訳・端末間のクラウド同期まで利用でき、Windows・Linux・macOS・Android・iOS・ブラウザに対応する「Readest」が公開されています。 続きを読む......"
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "gigazine_ai_7",
+      "source_name": "GIGAZINE (AI)",
+      "category": "国内ニュース",
+      "title": "25倍ズームで遠くまで大きく写せるソニー製デジカメ「RX10 V」を使って動物や食べ物を撮影してみた作例はこんな感じ、スマホのAIズームとは別格の出来栄え",
+      "url": "https://gigazine.net/news/20261010-sony-rx10-v-photo-example/",
+      "raw_summary": "「RX10 V(DSC-RX10M5)」は2026年7月31日に登場したソニー製レンズ一体型カメラで、35mm判換算で24mm～600mmの25倍ズームレンズを搭載しており遠くの被写体を大きく写すことができます。そんなRX10 Vをソニーから借りられたので、実際に動物園や飲食店でいろいろ撮影して「どれだけズームできるのか？」「卓上の食べ物などの近くの被写体は撮影できるのか？」といった疑問点を検証してみました。 続きを読む...",
+      "published_at": "2026-10-10T15:00:00+09:00",
+      "lang": "ja",
+      "japanese_title": "25倍ズームで遠くまで大きく写せるソニー製デジカメ「RX10 V」を使って動物や食べ物を撮影してみた作例はこんな感じ、スマホのAIズームとは別格の出来栄え",
+      "bullets": [
+        "📌 「RX10 V(DSC-RX10M5)」は2026年7月31日に登場したソニー製レンズ一体型カメラで、35mm判換算で24mm～600mmの25倍ズームレンズを搭載しており遠くの被写体を大きく写すことができます。そんなRX10 Vをソニーから借りられたので、実際に動物園や飲食店でいろいろ撮影して「ど..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "国内ニュース"
+      ]
+    },
+    {
+      "id": "techcrunch_ai_14",
+      "source_name": "TechCrunch AI",
+      "category": "海外・トレンド",
+      "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
+      "url": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+      "raw_summary": "TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco. Over 300 startups will show what they’ve built to 10,000 tech leaders. Plus, 250+ speakers are ready to share insights across 200+ sessions. Register before doors open to save up to $100 and get a second pass at 50% off.",
+      "published_at": "2026-10-10T15:00:00+00:00",
+      "lang": "en",
+      "japanese_title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
+      "bullets": [
+        "📌 TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco. Over 300 startups will show what they’ve built to 10,000 tech leaders. Plus, 250+ ..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・トレンド"
+      ]
+    },
+    {
+      "id": "techcrunch_ai_15",
+      "source_name": "TechCrunch AI",
+      "category": "海外・トレンド",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "raw_summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "published_at": "2026-10-10T14:00:00+00:00",
+      "lang": "en",
+      "japanese_title": "Here are the top AI agents that can live in your text messages",
+      "bullets": [
+        "📌 We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, ..."
+      ],
+      "impact_score": 2,
+      "genre": "先進技術",
+      "tags": [
+        "海外・トレンド"
+      ]
+    },
     {
       "id": "itmedia_ai_0",
       "source_name": "ITmedia AI+",
@@ -21,7 +154,7 @@
       ]
     },
     {
-      "id": "techcrunch_ai_15",
+      "id": "techcrunch_ai_16",
       "source_name": "TechCrunch AI",
       "category": "海外・トレンド",
       "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
@@ -40,26 +173,7 @@
       ]
     },
     {
-      "id": "techcrunch_ai_16",
-      "source_name": "TechCrunch AI",
-      "category": "海外・トレンド",
-      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-      "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
-      "raw_summary": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs.",
-      "published_at": "2026-10-09T21:41:29+00:00",
-      "lang": "en",
-      "japanese_title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-      "bullets": [
-        "📌 What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs...."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・トレンド"
-      ]
-    },
-    {
-      "id": "gigazine_ai_5",
+      "id": "gigazine_ai_8",
       "source_name": "GIGAZINE (AI)",
       "category": "国内ニュース",
       "title": "jevやGPT-6 Luna Decisionsなどの素早い判断に特化した確率モデルがパックマンをプレイするベンチマーク「jevman」",
@@ -97,26 +211,7 @@
       ]
     },
     {
-      "id": "techcrunch_ai_17",
-      "source_name": "TechCrunch AI",
-      "category": "海外・トレンド",
-      "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
-      "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
-      "raw_summary": "Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
-      "published_at": "2026-10-09T19:36:56+00:00",
-      "lang": "en",
-      "japanese_title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
-      "bullets": [
-        "📌 Anthropic did not discover this behavior until over two months after its AI submitted the false tip...."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・トレンド"
-      ]
-    },
-    {
-      "id": "gigazine_ai_6",
+      "id": "gigazine_ai_9",
       "source_name": "GIGAZINE (AI)",
       "category": "国内ニュース",
       "title": "ロシアとイランがプロパガンダ工作で用いたChatGPTアカウントをOpenAIが停止、工作の影響度は6段階中4～5",
@@ -146,101 +241,6 @@
       "japanese_title": "韓国の銀行狙ったサイバー攻撃、犯人は「中国在住の26歳」か Claudeで作られた“履歴書”から浮上",
       "bullets": [
         "📌 米CrowdStrikeは10月7日（現地時間）、韓国の金融機関を狙ったサイバー攻撃の攻撃者が、中国在住の26歳の人物である可能性を示す分析結果を公表した。攻撃者が使ったAIツールの履歴に、本人のものとみられる個人情報が残っていたという。..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
-    {
-      "id": "techcrunch_ai_18",
-      "source_name": "TechCrunch AI",
-      "category": "海外・トレンド",
-      "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
-      "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
-      "raw_summary": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Francisco. Meanwhile, a wave of startups is betting that consumers will hand AI agents access […]",
-      "published_at": "2026-10-09T16:56:42+00:00",
-      "lang": "en",
-      "japanese_title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
-      "bullets": [
-        "📌 Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this ye..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・トレンド"
-      ]
-    },
-    {
-      "id": "techcrunch_ai_19",
-      "source_name": "TechCrunch AI",
-      "category": "海外・トレンド",
-      "title": "Amazon drops data center NDAs, and AI agents want your credit card",
-      "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
-      "raw_summary": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Francisco. Meanwhile, a wave of startups is betting that consumers will hand AI agents access […]",
-      "published_at": "2026-10-09T16:53:02+00:00",
-      "lang": "en",
-      "japanese_title": "Amazon drops data center NDAs, and AI agents want your credit card",
-      "bullets": [
-        "📌 Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this ye..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・トレンド"
-      ]
-    },
-    {
-      "id": "gigazine_ai_7",
-      "source_name": "GIGAZINE (AI)",
-      "category": "国内ニュース",
-      "title": "MetaやOpenAIが「.agent」を新ドメインとしてICANNに申請、「.agi」やトランプ大統領の「.trump」に加え日本からは「.neko」も",
-      "url": "https://gigazine.net/news/20261009-icann-reveals-bids-new-domains-ai/",
-      "raw_summary": "URLのドメイン名の最後に付く「.com」や「.org」などのトップレベルドメイン(TLD)を管理するICANNが、2026年度に申請を受け付けた新ドメインの一覧を発表しました。MetaやOpenAIなど13の申請者が「.agent」を申請したほか、「.agi」「asi」などの「人工知能(AI)」や「超知能(SI)」に関連するドメインに多数の申請が寄せられています。 続きを読む...",
-      "published_at": "2026-10-09T16:00:00+09:00",
-      "lang": "ja",
-      "japanese_title": "MetaやOpenAIが「.agent」を新ドメインとしてICANNに申請、「.agi」やトランプ大統領の「.trump」に加え日本からは「.neko」も",
-      "bullets": [
-        "📌 URLのドメイン名の最後に付く「.com」や「.org」などのトップレベルドメイン(TLD)を管理するICANNが、2026年度に申請を受け付けた新ドメインの一覧を発表しました。MetaやOpenAIなど13の申請者が「.agent」を申請したほか、「.agi」「asi」などの「人工知能(AI)」や..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
-    {
-      "id": "gigazine_ai_8",
-      "source_name": "GIGAZINE (AI)",
-      "category": "国内ニュース",
-      "title": "ロシアのIT大手・Yandexのデータセンターがウクライナのドローン攻撃で大規模炎上、AI開発用スパコン2基も被災の可能性",
-      "url": "https://gigazine.net/news/20261009-yandex-drone-attack/",
-      "raw_summary": "ロシアのIT大手「Yandex(ヤンデックス)」が運営するデータセンターが2026年10月8日にウクライナのドローン攻撃を受け、大規模な火災が発生しました。データセンターは稼働停止に追い込まれ、ロシア国内の多数のオンラインサービスで障害が報告されています。攻撃を受けた施設にはAI開発に使用するスーパーコンピューター2基も設置されており、被害が懸念されています。 続きを読む...",
-      "published_at": "2026-10-09T15:15:00+09:00",
-      "lang": "ja",
-      "japanese_title": "ロシアのIT大手・Yandexのデータセンターがウクライナのドローン攻撃で大規模炎上、AI開発用スパコン2基も被災の可能性",
-      "bullets": [
-        "📌 ロシアのIT大手「Yandex(ヤンデックス)」が運営するデータセンターが2026年10月8日にウクライナのドローン攻撃を受け、大規模な火災が発生しました。データセンターは稼働停止に追い込まれ、ロシア国内の多数のオンラインサービスで障害が報告されています。攻撃を受けた施設にはAI開発に使用するスーパ..."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "国内ニュース"
-      ]
-    },
-    {
-      "id": "gigazine_ai_9",
-      "source_name": "GIGAZINE (AI)",
-      "category": "国内ニュース",
-      "title": "OpenAIがAIで大量の数学的成果を発表したのは「学術的成果ではなく権力の誇示に過ぎない」との指摘",
-      "url": "https://gigazine.net/news/20261009-openais-math-solutions-human-ahm/",
-      "raw_summary": "2026年10月、OpenAIが社内の最先端AIモデルを使って生成した722件に及ぶ「数学的成果」を発表しました。これに対し、世界各国の数学者らにより構成されているThe Association for Human Mathematics(人間のための数学協会)が、「一度に700以上の成果を公開することは学術的な成果を示すものではなく、権力の誇示に過ぎない」と批判しています。 続きを読む...",
-      "published_at": "2026-10-09T15:00:00+09:00",
-      "lang": "ja",
-      "japanese_title": "OpenAIがAIで大量の数学的成果を発表したのは「学術的成果ではなく権力の誇示に過ぎない」との指摘",
-      "bullets": [
-        "📌 2026年10月、OpenAIが社内の最先端AIモデルを使って生成した722件に及ぶ「数学的成果」を発表しました。これに対し、世界各国の数学者らにより構成されているThe Association for Human Mathematics(人間のための数学協会)が、「一度に700以上の成果を公開する..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
@@ -317,63 +317,6 @@
       "japanese_title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
       "bullets": [
         "📌 Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models...."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・公式"
-      ]
-    },
-    {
-      "id": "openai_blog_12",
-      "source_name": "OpenAI Blog",
-      "category": "海外・公式",
-      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "url": "https://openai.com/index/oracle",
-      "raw_summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-      "published_at": "2026-10-08T16:00:00+00:00",
-      "lang": "en",
-      "japanese_title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "bullets": [
-        "📌 Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex...."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・公式"
-      ]
-    },
-    {
-      "id": "openai_blog_13",
-      "source_name": "OpenAI Blog",
-      "category": "海外・公式",
-      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-      "url": "https://openai.com/index/pollo-ai",
-      "raw_summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
-      "published_at": "2026-10-08T12:00:00+00:00",
-      "lang": "en",
-      "japanese_title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-      "bullets": [
-        "📌 With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads...."
-      ],
-      "impact_score": 2,
-      "genre": "先進技術",
-      "tags": [
-        "海外・公式"
-      ]
-    },
-    {
-      "id": "openai_blog_14",
-      "source_name": "OpenAI Blog",
-      "category": "海外・公式",
-      "title": "LegalOn halves Codex costs while maintaining development speed",
-      "url": "https://openai.com/index/legalon-halves-codex-costs",
-      "raw_summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
-      "published_at": "2026-10-08T12:00:00+00:00",
-      "lang": "en",
-      "japanese_title": "LegalOn halves Codex costs while maintaining development speed",
-      "bullets": [
-        "📌 LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strat..."
       ],
       "impact_score": 2,
       "genre": "先進技術",
